@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 245 245" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Flint app icon</title>
+  <desc id="desc">An orange and gold faceted flint above a blue stone, forming an angular F on a rounded navy square. Recreated with vector paths and gradients.</desc>
+  <defs>
+    <linearGradient id="background" x1="31" y1="245" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#031322"/>
+      <stop offset=".58" stop-color="#091b2d"/>
+      <stop offset="1" stop-color="#243a50"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="122" y1="0" x2="122" y2="245" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#536e89" stop-opacity=".65"/>
+      <stop offset=".42" stop-color="#142b40" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#000c18" stop-opacity=".4"/>
+    </linearGradient>
+    <linearGradient id="ember" x1="150" y1="34" x2="73" y2="130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffce42"/>
+      <stop offset=".5" stop-color="#ff961d"/>
+      <stop offset="1" stop-color="#f44809"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="182" y1="29" x2="118" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe98b"/>
+      <stop offset="1" stop-color="#ffbf37"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="183" y1="34" x2="151" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffcf49"/>
+      <stop offset="1" stop-color="#ff9b13"/>
+    </linearGradient>
+    <linearGradient id="fire" x1="119" y1="72" x2="82" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff7a13"/>
+      <stop offset="1" stop-color="#ff4807"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="150" y1="117" x2="53" y2="211" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d8dee7"/>
+      <stop offset=".45" stop-color="#89a7c3"/>
+      <stop offset="1" stop-color="#4c80aa"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="150" y1="116" x2="84" y2="156" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eef0f4"/>
+      <stop offset="1" stop-color="#91a7be"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="57" y1="139" x2="64" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#456887"/>
+      <stop offset="1" stop-color="#6ea9d5"/>
+    </linearGradient>
+    <linearGradient id="slate" x1="76" y1="158" x2="95" y2="183" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#577d9e"/>
+      <stop offset="1" stop-color="#7398b7"/>
+    </linearGradient>
+    <clipPath id="upper">
+      <path d="M56 132C54 128 56 120 60 113L87 63Q90 56 98 54L191 28Q195 27 193 32L170 81Q168 87 162 90L80 115Q68 120 56 132Z"/>
+    </clipPath>
+    <clipPath id="lower">
+      <path d="M57 215Q54 215 54 211L54 150Q54 138 63 133L150 115Q154 114 152 118L135 150Q132 157 126 161L59 213Q58 214 57 215Z"/>
+    </clipPath>
+  </defs>
+  <rect x=".5" y=".5" width="244" height="244" rx="41" fill="url(#background)" stroke="url(#rim)"/>
+  <g clip-path="url(#upper)">
+    <path d="M54 27H196V134H54Z" fill="url(#ember)"/>
+    <path d="M91 55L194 28L125 73Z" fill="url(#gold)"/>
+    <path d="M125 73L194 28L166 89Z" fill="url(#amber)"/>
+    <path d="M55 129L125 73L166 89L80 115Z" fill="url(#fire)"/>
+    <path d="M55 132L78 112L163 90L80 117Z" fill="#de4108" opacity=".48"/>
+    <path d="M96 54L193 28" stroke="#fff0a5" stroke-opacity=".65" stroke-width="1.2"/>
+  </g>
+  <g clip-path="url(#lower)">
+    <path d="M53 114H155V216H53Z" fill="url(#stone)"/>
+    <path d="M60 135L153 115L88 156Z" fill="url(#silver)"/>
+    <path d="M54 136L88 156L55 215Z" fill="url(#blue)"/>
+    <path d="M88 156L107 171L55 215Z" fill="url(#slate)"/>
+    <path d="M88 156L153 115L131 156L107 171Z" fill="#b3c9dc" opacity=".28"/>
+    <path d="M60 135L150 115" stroke="#e7edf5" stroke-opacity=".55" stroke-width="1"/>
+    <path d="M55 151V212" stroke="#91bde0" stroke-opacity=".42" stroke-width="1"/>
+  </g>
+</svg>
