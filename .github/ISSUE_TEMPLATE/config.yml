@@ -1,11 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Report a security vulnerability
-    url: mailto:security@blueconfetti.net
-    about: Report suspected vulnerabilities privately by email, not in a public issue.
-  - name: Private support request
-    url: mailto:support@blueconfetti.net
-    about: Questions that involve your organization's pages, account, or billing details.
+  - name: Security reports and private support
+    url: https://blueconfetti.github.io/support/
+    about: Report vulnerabilities to security@blueconfetti.net and private questions to support@blueconfetti.net, not in a public issue.
   - name: Table Glide guide
     url: https://blueconfetti.github.io/table-filter/
     about: Setup, filters, sorting, pagination, and license notices.
