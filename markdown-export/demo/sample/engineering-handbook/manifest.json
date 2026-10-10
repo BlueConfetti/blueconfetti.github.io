@@ -1,0 +1,134 @@
+{
+  "generator": "Flint Markdown Export 0.1.0",
+  "format_version": 1,
+  "site": "https://example.atlassian.net",
+  "root_page_id": "1001",
+  "scope": "descendants",
+  "exported": "2026-10-10T16:00:00Z",
+  "pages": [
+    {
+      "page_id": "1001",
+      "title": "Engineering Handbook",
+      "path": "engineering-handbook.md",
+      "parent_id": null,
+      "depth": 0,
+      "position": 0,
+      "source_url": "https://example.atlassian.net/wiki/spaces/ENG/pages/1001/Engineering+Handbook",
+      "space_key": "ENG",
+      "breadcrumb": [
+        "Engineering Handbook"
+      ],
+      "labels": [
+        "handbook"
+      ],
+      "author": "Priya Shah",
+      "last_updated_by": "Sam Lee",
+      "created": "2026-09-01T09:00:00.000Z",
+      "updated": "2026-10-08T15:30:00.000Z",
+      "version": 4,
+      "assets": [],
+      "warnings": []
+    },
+    {
+      "page_id": "1002",
+      "title": "Onboarding",
+      "path": "engineering-handbook/onboarding.md",
+      "parent_id": "1001",
+      "depth": 1,
+      "position": 0,
+      "source_url": "https://example.atlassian.net/wiki/spaces/ENG/pages/1002/Onboarding",
+      "space_key": "ENG",
+      "breadcrumb": [
+        "Engineering Handbook",
+        "Onboarding"
+      ],
+      "labels": [
+        "onboarding"
+      ],
+      "author": "Priya Shah",
+      "last_updated_by": "Sam Lee",
+      "created": "2026-09-01T09:00:00.000Z",
+      "updated": "2026-10-08T15:30:00.000Z",
+      "version": 4,
+      "assets": [],
+      "warnings": []
+    },
+    {
+      "page_id": "1003",
+      "title": "First week",
+      "path": "engineering-handbook/onboarding/first-week.md",
+      "parent_id": "1002",
+      "depth": 2,
+      "position": 0,
+      "source_url": "https://example.atlassian.net/wiki/spaces/ENG/pages/1003/First+week",
+      "space_key": "ENG",
+      "breadcrumb": [
+        "Engineering Handbook",
+        "Onboarding",
+        "First week"
+      ],
+      "labels": [
+        "onboarding"
+      ],
+      "author": "Priya Shah",
+      "last_updated_by": "Sam Lee",
+      "created": "2026-09-01T09:00:00.000Z",
+      "updated": "2026-10-08T15:30:00.000Z",
+      "version": 4,
+      "assets": [],
+      "warnings": []
+    },
+    {
+      "page_id": "1004",
+      "title": "Architecture overview",
+      "path": "engineering-handbook/architecture-overview.md",
+      "parent_id": "1001",
+      "depth": 1,
+      "position": 1,
+      "source_url": "https://example.atlassian.net/wiki/spaces/ENG/pages/1004/Architecture+overview",
+      "space_key": "ENG",
+      "breadcrumb": [
+        "Engineering Handbook",
+        "Architecture overview"
+      ],
+      "labels": [
+        "architecture"
+      ],
+      "author": "Priya Shah",
+      "last_updated_by": "Sam Lee",
+      "created": "2026-09-01T09:00:00.000Z",
+      "updated": "2026-10-08T15:30:00.000Z",
+      "version": 4,
+      "assets": [
+        "engineering-handbook/architecture-overview.assets/system-overview.svg"
+      ],
+      "warnings": []
+    },
+    {
+      "page_id": "1005",
+      "title": "Release checklist",
+      "path": "engineering-handbook/release-checklist.md",
+      "parent_id": "1001",
+      "depth": 1,
+      "position": 2,
+      "source_url": "https://example.atlassian.net/wiki/spaces/ENG/pages/1005/Release+checklist",
+      "space_key": "ENG",
+      "breadcrumb": [
+        "Engineering Handbook",
+        "Release checklist"
+      ],
+      "labels": [
+        "process"
+      ],
+      "author": "Priya Shah",
+      "last_updated_by": "Sam Lee",
+      "created": "2026-09-01T09:00:00.000Z",
+      "updated": "2026-10-08T15:30:00.000Z",
+      "version": 4,
+      "assets": [],
+      "warnings": []
+    }
+  ],
+  "skipped": [],
+  "limits": []
+}
