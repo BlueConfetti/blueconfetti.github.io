@@ -1,0 +1,45 @@
+name: Bug report
+description: Something in a BlueConfetti app is not working as described.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues here are public. Do not include confidential page content, names, account details, or screenshots of private data. Use a small made-up table to show the problem, or email support@blueconfetti.net instead.
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - Table Glide
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Insert the macro around a table with ...
+        2. Choose ...
+        3. See ...
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      placeholder: For example, Chrome 141 on macOS
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public issue
+      options:
+        - label: This report contains no confidential content or personal data.
+          required: true
