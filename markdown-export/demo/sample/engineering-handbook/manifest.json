@@ -1,13 +1,14 @@
 {
-  "generator": "Flint Markdown Export 0.1.0",
+  "generator": "Flint Markdown Export 0.2.0",
   "format_version": 1,
   "site": "https://example.atlassian.net",
   "root_page_id": "1001",
-  "scope": "descendants",
-  "exported": "2026-10-10T16:00:00Z",
+  "scope": "selected",
+  "exported": "2026-10-11T16:00:00Z",
   "pages": [
     {
       "page_id": "1001",
+      "content_type": "page",
       "title": "Engineering Handbook",
       "path": "engineering-handbook.md",
       "parent_id": null,
@@ -15,6 +16,7 @@
       "position": 0,
       "source_url": "https://example.atlassian.net/wiki/spaces/ENG/pages/1001/Engineering+Handbook",
       "space_key": "ENG",
+      "space_name": "ENG",
       "breadcrumb": [
         "Engineering Handbook"
       ],
@@ -27,10 +29,13 @@
       "updated": "2026-10-08T15:30:00.000Z",
       "version": 4,
       "assets": [],
+      "includes": [],
+      "rendered_macros": [],
       "warnings": []
     },
     {
       "page_id": "1002",
+      "content_type": "page",
       "title": "Onboarding",
       "path": "engineering-handbook/onboarding.md",
       "parent_id": "1001",
@@ -38,6 +43,7 @@
       "position": 0,
       "source_url": "https://example.atlassian.net/wiki/spaces/ENG/pages/1002/Onboarding",
       "space_key": "ENG",
+      "space_name": "ENG",
       "breadcrumb": [
         "Engineering Handbook",
         "Onboarding"
@@ -51,10 +57,13 @@
       "updated": "2026-10-08T15:30:00.000Z",
       "version": 4,
       "assets": [],
+      "includes": [],
+      "rendered_macros": [],
       "warnings": []
     },
     {
       "page_id": "1003",
+      "content_type": "page",
       "title": "First week",
       "path": "engineering-handbook/onboarding/first-week.md",
       "parent_id": "1002",
@@ -62,6 +71,7 @@
       "position": 0,
       "source_url": "https://example.atlassian.net/wiki/spaces/ENG/pages/1003/First+week",
       "space_key": "ENG",
+      "space_name": "ENG",
       "breadcrumb": [
         "Engineering Handbook",
         "Onboarding",
@@ -76,10 +86,13 @@
       "updated": "2026-10-08T15:30:00.000Z",
       "version": 4,
       "assets": [],
+      "includes": [],
+      "rendered_macros": [],
       "warnings": []
     },
     {
       "page_id": "1004",
+      "content_type": "page",
       "title": "Architecture overview",
       "path": "engineering-handbook/architecture-overview.md",
       "parent_id": "1001",
@@ -87,6 +100,7 @@
       "position": 1,
       "source_url": "https://example.atlassian.net/wiki/spaces/ENG/pages/1004/Architecture+overview",
       "space_key": "ENG",
+      "space_name": "ENG",
       "breadcrumb": [
         "Engineering Handbook",
         "Architecture overview"
@@ -102,10 +116,13 @@
       "assets": [
         "engineering-handbook/architecture-overview.assets/system-overview.svg"
       ],
+      "includes": [],
+      "rendered_macros": [],
       "warnings": []
     },
     {
       "page_id": "1005",
+      "content_type": "page",
       "title": "Release checklist",
       "path": "engineering-handbook/release-checklist.md",
       "parent_id": "1001",
@@ -113,6 +130,7 @@
       "position": 2,
       "source_url": "https://example.atlassian.net/wiki/spaces/ENG/pages/1005/Release+checklist",
       "space_key": "ENG",
+      "space_name": "ENG",
       "breadcrumb": [
         "Engineering Handbook",
         "Release checklist"
@@ -126,9 +144,36 @@
       "updated": "2026-10-08T15:30:00.000Z",
       "version": 4,
       "assets": [],
-      "warnings": []
+      "includes": [],
+      "rendered_macros": [],
+      "warnings": [
+        "Jira issue list not exported (JQL: project = ENG AND resolution = Unresolved)"
+      ]
     }
   ],
   "skipped": [],
-  "limits": []
+  "limits": [],
+  "options": {
+    "linkStyle": "markdown",
+    "panelStyle": "callout",
+    "filenamePattern": "{title}",
+    "frontMatter": true,
+    "frontMatterFields": [
+      "title",
+      "page_id",
+      "source_url",
+      "space_key",
+      "parent_id",
+      "breadcrumb",
+      "labels",
+      "author",
+      "last_updated_by",
+      "created",
+      "updated",
+      "version",
+      "exported"
+    ],
+    "customFields": {},
+    "preset": "standard"
+  }
 }

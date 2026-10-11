@@ -1,80 +1,1152 @@
 {
-  "zipName": "ENG-engineering-handbook-2026-10-10.zip",
-  "top": "engineering-handbook",
-  "summary": {
-    "pages": 5,
-    "images": 1,
-    "warnings": 0
-  },
+  "version": 2,
+  "generated": "2026-10-11",
+  "generator": "Flint Markdown Export 0.2.0",
+  "presets": [
+    {
+      "id": "standard",
+      "label": "Standard Markdown",
+      "options": {
+        "linkStyle": "markdown",
+        "panelStyle": "callout",
+        "filenamePattern": "{title}",
+        "frontMatter": true,
+        "frontMatterFields": [
+          "title",
+          "page_id",
+          "source_url",
+          "space_key",
+          "parent_id",
+          "breadcrumb",
+          "labels",
+          "author",
+          "last_updated_by",
+          "created",
+          "updated",
+          "version",
+          "exported"
+        ],
+        "customFields": {},
+        "preset": "standard"
+      }
+    },
+    {
+      "id": "obsidian",
+      "label": "Obsidian vault",
+      "options": {
+        "linkStyle": "wikilink",
+        "panelStyle": "callout",
+        "filenamePattern": "{title}-{id}",
+        "frontMatter": true,
+        "frontMatterFields": [
+          "title",
+          "page_id",
+          "source_url",
+          "space_key",
+          "parent_id",
+          "breadcrumb",
+          "labels",
+          "author",
+          "last_updated_by",
+          "created",
+          "updated",
+          "version",
+          "exported"
+        ],
+        "customFields": {},
+        "preset": "obsidian"
+      }
+    },
+    {
+      "id": "git",
+      "label": "Git documentation",
+      "options": {
+        "linkStyle": "markdown",
+        "panelStyle": "blockquote",
+        "filenamePattern": "{id}",
+        "frontMatter": true,
+        "frontMatterFields": [
+          "title",
+          "page_id",
+          "source_url",
+          "space_key",
+          "parent_id",
+          "breadcrumb",
+          "labels",
+          "author",
+          "last_updated_by",
+          "created",
+          "updated",
+          "version"
+        ],
+        "customFields": {},
+        "preset": "git"
+      }
+    },
+    {
+      "id": "context",
+      "label": "AI context",
+      "options": {
+        "linkStyle": "markdown",
+        "panelStyle": "plain",
+        "filenamePattern": "{title}-{id}",
+        "frontMatter": true,
+        "frontMatterFields": [
+          "title",
+          "page_id",
+          "source_url",
+          "space_key",
+          "parent_id",
+          "breadcrumb",
+          "labels",
+          "author",
+          "last_updated_by",
+          "created",
+          "updated",
+          "version",
+          "exported"
+        ],
+        "customFields": {},
+        "preset": "context"
+      }
+    }
+  ],
   "pages": [
     {
       "id": "1001",
       "title": "Engineering Handbook",
+      "parentId": null,
       "depth": 0,
-      "file": "engineering-handbook.md",
+      "bit": 1,
       "html": "<p>Everything a new engineer needs, in one place. Start with <a href=\"index.html#page-1002\">Onboarding</a>, then read the <a href=\"index.html#page-1004\">Architecture overview</a>.</p><h2>Owners</h2><p>Maintained by @Priya Shah and @Sam Lee. Questions go to the <code>#eng-help</code> channel.</p><blockquote><p>This handbook is the source of truth. If something here is wrong, fix it.</p></blockquote>"
     },
     {
       "id": "1002",
       "title": "Onboarding",
+      "parentId": "1001",
       "depth": 1,
-      "file": "engineering-handbook/onboarding.md",
+      "bit": 2,
       "html": "<p>Your first two weeks, step by step. Day-by-day details are in <a href=\"index.html#page-1003\">First week</a>.</p><h2>Before day one</h2><ul><li>[x] Laptop ordered</li><li>[x] Accounts requested</li><li>[ ] Buddy assigned: @Sam Lee</li></ul><h2>Who to ask</h2><table><tr><th><p>Topic</p></th><th><p>Contact</p></th></tr><tr><td><p>Access and accounts</p></td><td><p>@Priya Shah</p></td></tr><tr><td><p>Code review</p></td><td><p>@Sam Lee</p></td></tr></table>"
     },
     {
       "id": "1003",
       "title": "First week",
+      "parentId": "1002",
       "depth": 2,
-      "file": "engineering-handbook/onboarding/first-week.md",
+      "bit": 4,
       "html": "<ul><li><p>Day 1: set up your machine</p></li><li><p>Day 2: ship a small fix, tracked in <a href=\"https://example.atlassian.net/browse/ENG-42\">ENG-42</a></p></li><li><p>Day 3 to 5: pair on the current sprint</p></li></ul><h2>Set up your machine</h2><pre><code>git clone git@example.com:acme/app.git&#10;cd app&#10;npm ci&#10;npm test</code></pre><p><strong>Troubleshooting</strong></p><p>If tests fail on a fresh clone, check your Node version against <code>.nvmrc</code>.</p>"
     },
     {
       "id": "1004",
       "title": "Architecture overview",
+      "parentId": "1001",
       "depth": 1,
-      "file": "engineering-handbook/architecture-overview.md",
-      "html": "<p>Three services, one direction of traffic.</p><p><img src=\"sample/engineering-handbook/engineering-handbook/architecture-overview.assets/system-overview.svg\" alt=\"System overview\"></p><h2>Services</h2><table><tr><th><p>Service</p></th><th><p>Owner</p></th><th><p>Status</p></th></tr><tr><td><p>Web app</p></td><td><p>@Sam Lee</p></td><td><p>[LIVE]</p></td></tr><tr><td><p>API</p></td><td><p>@Priya Shah</p></td><td><p>[MIGRATING]</p></td></tr><tr><td colspan=\"3\"><p>The database is managed by the platform team.</p></td></tr></table><blockquote><p>Never connect to the production database from a laptop.</p></blockquote>"
+      "bit": 8,
+      "html": "<p>Three services, one direction of traffic.</p><p><img src=\"media/system-overview.svg\" alt=\"System overview\"></p><h2>Services</h2><table><tr><th><p>Service</p></th><th><p>Owner</p></th><th><p>Status</p></th></tr><tr><td><p>Web app</p></td><td><p>@Sam Lee</p></td><td><p>[LIVE]</p></td></tr><tr><td><p>API</p></td><td><p>@Priya Shah</p></td><td><p>[MIGRATING]</p></td></tr><tr><td colspan=\"3\"><p>For access, read <a href=\"index.html#page-1002\">Onboarding</a>. The database is managed by the platform team.</p></td></tr></table><blockquote><p>Never connect to the production database from a laptop.</p></blockquote>"
     },
     {
       "id": "1005",
       "title": "Release checklist",
+      "parentId": "1001",
       "depth": 1,
-      "file": "engineering-handbook/release-checklist.md",
-      "html": "<p>Next release: 2026-10-20 [IN PROGRESS]</p><ul><li>[x] Changelog written</li><li>[ ] Staging sign-off by @Priya Shah</li><li>[ ] Announce in <code>#releases</code></li></ul><ul><li><strong>Decision:</strong> Releases ship on Tuesdays, never Fridays.</li></ul>"
+      "bit": 16,
+      "html": "<p>Next release: 2026-10-20 [IN PROGRESS]</p><ul><li>[x] Changelog written</li><li>[ ] Staging sign-off by @Priya Shah</li><li>[ ] Announce in <code>#releases</code></li></ul><ul><li><strong>Decision:</strong> Releases ship on Tuesdays, never Fridays.</li></ul><h2>Open release issues</h2><p>The live issue list is a Confluence macro. Its omission is recorded as a warning in the export.</p><!-- macro: jira jql=\"project = ENG AND resolution = Unresolved\" -->"
     }
   ],
-  "files": [
-    {
-      "path": "engineering-handbook.md",
-      "text": "---\ntitle: \"Engineering Handbook\"\npage_id: \"1001\"\nsource_url: \"https://example.atlassian.net/wiki/spaces/ENG/pages/1001/Engineering+Handbook\"\nspace_key: \"ENG\"\nparent_id: null\nbreadcrumb: [\"Engineering Handbook\"]\nlabels: [\"handbook\"]\nauthor: \"Priya Shah\"\nlast_updated_by: \"Sam Lee\"\ncreated: \"2026-09-01T09:00:00.000Z\"\nupdated: \"2026-10-08T15:30:00.000Z\"\nversion: 4\nexported: \"2026-10-10T16:00:00Z\"\n---\n\n# Engineering Handbook\n\nEverything a new engineer needs, in one place. Start with [Onboarding](engineering-handbook/onboarding.md), then read the [Architecture overview](engineering-handbook/architecture-overview.md).\n\n## Owners\n\nMaintained by @Priya Shah and @Sam Lee. Questions go to the `#eng-help` channel.\n\n> [!NOTE]\n> This handbook is the source of truth. If something here is wrong, fix it.\n"
+  "variants": {
+    "standard-1-0": {
+      "json": "variants/standard-1-0/sample.json",
+      "zip": "variants/standard-1-0/export.zip"
     },
-    {
-      "path": "engineering-handbook/onboarding.md",
-      "text": "---\ntitle: \"Onboarding\"\npage_id: \"1002\"\nsource_url: \"https://example.atlassian.net/wiki/spaces/ENG/pages/1002/Onboarding\"\nspace_key: \"ENG\"\nparent_id: \"1001\"\nbreadcrumb: [\"Engineering Handbook\", \"Onboarding\"]\nlabels: [\"onboarding\"]\nauthor: \"Priya Shah\"\nlast_updated_by: \"Sam Lee\"\ncreated: \"2026-09-01T09:00:00.000Z\"\nupdated: \"2026-10-08T15:30:00.000Z\"\nversion: 4\nexported: \"2026-10-10T16:00:00Z\"\n---\n\n# Onboarding\n\nYour first two weeks, step by step. Day-by-day details are in [First week](onboarding/first-week.md).\n\n## Before day one\n\n- [x] Laptop ordered\n- [x] Accounts requested\n- [ ] Buddy assigned: @Sam Lee\n\n## Who to ask\n\n| Topic | Contact |\n| --- | --- |\n| Access and accounts | @Priya Shah |\n| Code review | @Sam Lee |\n"
+    "standard-1-1": {
+      "json": "variants/standard-1-1/sample.json",
+      "zip": "variants/standard-1-1/export.zip"
     },
-    {
-      "path": "engineering-handbook/onboarding/first-week.md",
-      "text": "---\ntitle: \"First week\"\npage_id: \"1003\"\nsource_url: \"https://example.atlassian.net/wiki/spaces/ENG/pages/1003/First+week\"\nspace_key: \"ENG\"\nparent_id: \"1002\"\nbreadcrumb: [\"Engineering Handbook\", \"Onboarding\", \"First week\"]\nlabels: [\"onboarding\"]\nauthor: \"Priya Shah\"\nlast_updated_by: \"Sam Lee\"\ncreated: \"2026-09-01T09:00:00.000Z\"\nupdated: \"2026-10-08T15:30:00.000Z\"\nversion: 4\nexported: \"2026-10-10T16:00:00Z\"\n---\n\n# First week\n\n- Day 1: set up your machine\n- Day 2: ship a small fix, tracked in [ENG-42](https://example.atlassian.net/browse/ENG-42)\n- Day 3 to 5: pair on the current sprint\n\n## Set up your machine\n\n```bash\ngit clone git@example.com:acme/app.git\ncd app\nnpm ci\nnpm test\n```\n\n**Troubleshooting**\n\nIf tests fail on a fresh clone, check your Node version against `.nvmrc`.\n"
+    "standard-2-0": {
+      "json": "variants/standard-2-0/sample.json",
+      "zip": "variants/standard-2-0/export.zip"
     },
-    {
-      "path": "engineering-handbook/architecture-overview.md",
-      "text": "---\ntitle: \"Architecture overview\"\npage_id: \"1004\"\nsource_url: \"https://example.atlassian.net/wiki/spaces/ENG/pages/1004/Architecture+overview\"\nspace_key: \"ENG\"\nparent_id: \"1001\"\nbreadcrumb: [\"Engineering Handbook\", \"Architecture overview\"]\nlabels: [\"architecture\"]\nauthor: \"Priya Shah\"\nlast_updated_by: \"Sam Lee\"\ncreated: \"2026-09-01T09:00:00.000Z\"\nupdated: \"2026-10-08T15:30:00.000Z\"\nversion: 4\nexported: \"2026-10-10T16:00:00Z\"\n---\n\n# Architecture overview\n\nThree services, one direction of traffic.\n\n![System overview](architecture-overview.assets/system-overview.svg)\n\n## Services\n\n<table><tr><th><p>Service</p></th><th><p>Owner</p></th><th><p>Status</p></th></tr><tr><td><p>Web app</p></td><td><p>@Sam Lee</p></td><td><p>[LIVE]</p></td></tr><tr><td><p>API</p></td><td><p>@Priya Shah</p></td><td><p>[MIGRATING]</p></td></tr><tr><td colspan=\"3\"><p>The database is managed by the platform team.</p></td></tr></table>\n\n> [!WARNING]\n> Never connect to the production database from a laptop.\n"
+    "standard-2-1": {
+      "json": "variants/standard-2-1/sample.json",
+      "zip": "variants/standard-2-1/export.zip"
     },
-    {
-      "path": "engineering-handbook/release-checklist.md",
-      "text": "---\ntitle: \"Release checklist\"\npage_id: \"1005\"\nsource_url: \"https://example.atlassian.net/wiki/spaces/ENG/pages/1005/Release+checklist\"\nspace_key: \"ENG\"\nparent_id: \"1001\"\nbreadcrumb: [\"Engineering Handbook\", \"Release checklist\"]\nlabels: [\"process\"]\nauthor: \"Priya Shah\"\nlast_updated_by: \"Sam Lee\"\ncreated: \"2026-09-01T09:00:00.000Z\"\nupdated: \"2026-10-08T15:30:00.000Z\"\nversion: 4\nexported: \"2026-10-10T16:00:00Z\"\n---\n\n# Release checklist\n\nNext release: 2026-10-20 \\[IN PROGRESS\\]\n\n- [x] Changelog written\n- [ ] Staging sign-off by @Priya Shah\n- [ ] Announce in `#releases`\n\n- **Decision:** Releases ship on Tuesdays, never Fridays.\n"
+    "standard-3-0": {
+      "json": "variants/standard-3-0/sample.json",
+      "zip": "variants/standard-3-0/export.zip"
     },
-    {
-      "path": "engineering-handbook/architecture-overview.assets/system-overview.svg",
-      "size": 614
+    "standard-3-1": {
+      "json": "variants/standard-3-1/sample.json",
+      "zip": "variants/standard-3-1/export.zip"
     },
-    {
-      "path": "all-pages.md",
-      "text": "<!-- page 1001: engineering-handbook.md -->\n\n# Engineering Handbook\n\nSource: https://example.atlassian.net/wiki/spaces/ENG/pages/1001/Engineering+Handbook · Updated: 2026-10-08\n\nEverything a new engineer needs, in one place. Start with [Onboarding](engineering-handbook/onboarding.md), then read the [Architecture overview](engineering-handbook/architecture-overview.md).\n\n## Owners\n\nMaintained by @Priya Shah and @Sam Lee. Questions go to the `#eng-help` channel.\n\n> [!NOTE]\n> This handbook is the source of truth. If something here is wrong, fix it.\n\n<!-- page 1002: engineering-handbook/onboarding.md -->\n\n# Onboarding\n\nSource: https://example.atlassian.net/wiki/spaces/ENG/pages/1002/Onboarding · Updated: 2026-10-08\n\nYour first two weeks, step by step. Day-by-day details are in [First week](engineering-handbook/onboarding/first-week.md).\n\n## Before day one\n\n- [x] Laptop ordered\n- [x] Accounts requested\n- [ ] Buddy assigned: @Sam Lee\n\n## Who to ask\n\n| Topic | Contact |\n| --- | --- |\n| Access and accounts | @Priya Shah |\n| Code review | @Sam Lee |\n\n<!-- page 1003: engineering-handbook/onboarding/first-week.md -->\n\n# First week\n\nSource: https://example.atlassian.net/wiki/spaces/ENG/pages/1003/First+week · Updated: 2026-10-08\n\n- Day 1: set up your machine\n- Day 2: ship a small fix, tracked in [ENG-42](https://example.atlassian.net/browse/ENG-42)\n- Day 3 to 5: pair on the current sprint\n\n## Set up your machine\n\n```bash\ngit clone git@example.com:acme/app.git\ncd app\nnpm ci\nnpm test\n```\n\n**Troubleshooting**\n\nIf tests fail on a fresh clone, check your Node version against `.nvmrc`.\n\n<!-- page 1004: engineering-handbook/architecture-overview.md -->\n\n# Architecture overview\n\nSource: https://example.atlassian.net/wiki/spaces/ENG/pages/1004/Architecture+overview · Updated: 2026-10-08\n\nThree services, one direction of traffic.\n\n![System overview](engineering-handbook/architecture-overview.assets/system-overview.svg)\n\n## Services\n\n<table><tr><th><p>Service</p></th><th><p>Owner</p></th><th><p>Status</p></th></tr><tr><td><p>Web app</p></td><td><p>@Sam Lee</p></td><td><p>[LIVE]</p></td></tr><tr><td><p>API</p></td><td><p>@Priya Shah</p></td><td><p>[MIGRATING]</p></td></tr><tr><td colspan=\"3\"><p>The database is managed by the platform team.</p></td></tr></table>\n\n> [!WARNING]\n> Never connect to the production database from a laptop.\n\n<!-- page 1005: engineering-handbook/release-checklist.md -->\n\n# Release checklist\n\nSource: https://example.atlassian.net/wiki/spaces/ENG/pages/1005/Release+checklist · Updated: 2026-10-08\n\nNext release: 2026-10-20 \\[IN PROGRESS\\]\n\n- [x] Changelog written\n- [ ] Staging sign-off by @Priya Shah\n- [ ] Announce in `#releases`\n\n- **Decision:** Releases ship on Tuesdays, never Fridays.\n"
+    "standard-4-0": {
+      "json": "variants/standard-4-0/sample.json",
+      "zip": "variants/standard-4-0/export.zip"
     },
-    {
-      "path": "manifest.json",
-      "text": "{\n  \"generator\": \"Flint Markdown Export 0.1.0\",\n  \"format_version\": 1,\n  \"site\": \"https://example.atlassian.net\",\n  \"root_page_id\": \"1001\",\n  \"scope\": \"descendants\",\n  \"exported\": \"2026-10-10T16:00:00Z\",\n  \"pages\": [\n    {\n      \"page_id\": \"1001\",\n      \"title\": \"Engineering Handbook\",\n      \"path\": \"engineering-handbook.md\",\n      \"parent_id\": null,\n      \"depth\": 0,\n      \"position\": 0,\n      \"source_url\": \"https://example.atlassian.net/wiki/spaces/ENG/pages/1001/Engineering+Handbook\",\n      \"space_key\": \"ENG\",\n      \"breadcrumb\": [\n        \"Engineering Handbook\"\n      ],\n      \"labels\": [\n        \"handbook\"\n      ],\n      \"author\": \"Priya Shah\",\n      \"last_updated_by\": \"Sam Lee\",\n      \"created\": \"2026-09-01T09:00:00.000Z\",\n      \"updated\": \"2026-10-08T15:30:00.000Z\",\n      \"version\": 4,\n      \"assets\": [],\n      \"warnings\": []\n    },\n    {\n      \"page_id\": \"1002\",\n      \"title\": \"Onboarding\",\n      \"path\": \"engineering-handbook/onboarding.md\",\n      \"parent_id\": \"1001\",\n      \"depth\": 1,\n      \"position\": 0,\n      \"source_url\": \"https://example.atlassian.net/wiki/spaces/ENG/pages/1002/Onboarding\",\n      \"space_key\": \"ENG\",\n      \"breadcrumb\": [\n        \"Engineering Handbook\",\n        \"Onboarding\"\n      ],\n      \"labels\": [\n        \"onboarding\"\n      ],\n      \"author\": \"Priya Shah\",\n      \"last_updated_by\": \"Sam Lee\",\n      \"created\": \"2026-09-01T09:00:00.000Z\",\n      \"updated\": \"2026-10-08T15:30:00.000Z\",\n      \"version\": 4,\n      \"assets\": [],\n      \"warnings\": []\n    },\n    {\n      \"page_id\": \"1003\",\n      \"title\": \"First week\",\n      \"path\": \"engineering-handbook/onboarding/first-week.md\",\n      \"parent_id\": \"1002\",\n      \"depth\": 2,\n      \"position\": 0,\n      \"source_url\": \"https://example.atlassian.net/wiki/spaces/ENG/pages/1003/First+week\",\n      \"space_key\": \"ENG\",\n      \"breadcrumb\": [\n        \"Engineering Handbook\",\n        \"Onboarding\",\n        \"First week\"\n      ],\n      \"labels\": [\n        \"onboarding\"\n      ],\n      \"author\": \"Priya Shah\",\n      \"last_updated_by\": \"Sam Lee\",\n      \"created\": \"2026-09-01T09:00:00.000Z\",\n      \"updated\": \"2026-10-08T15:30:00.000Z\",\n      \"version\": 4,\n      \"assets\": [],\n      \"warnings\": []\n    },\n    {\n      \"page_id\": \"1004\",\n      \"title\": \"Architecture overview\",\n      \"path\": \"engineering-handbook/architecture-overview.md\",\n      \"parent_id\": \"1001\",\n      \"depth\": 1,\n      \"position\": 1,\n      \"source_url\": \"https://example.atlassian.net/wiki/spaces/ENG/pages/1004/Architecture+overview\",\n      \"space_key\": \"ENG\",\n      \"breadcrumb\": [\n        \"Engineering Handbook\",\n        \"Architecture overview\"\n      ],\n      \"labels\": [\n        \"architecture\"\n      ],\n      \"author\": \"Priya Shah\",\n      \"last_updated_by\": \"Sam Lee\",\n      \"created\": \"2026-09-01T09:00:00.000Z\",\n      \"updated\": \"2026-10-08T15:30:00.000Z\",\n      \"version\": 4,\n      \"assets\": [\n        \"engineering-handbook/architecture-overview.assets/system-overview.svg\"\n      ],\n      \"warnings\": []\n    },\n    {\n      \"page_id\": \"1005\",\n      \"title\": \"Release checklist\",\n      \"path\": \"engineering-handbook/release-checklist.md\",\n      \"parent_id\": \"1001\",\n      \"depth\": 1,\n      \"position\": 2,\n      \"source_url\": \"https://example.atlassian.net/wiki/spaces/ENG/pages/1005/Release+checklist\",\n      \"space_key\": \"ENG\",\n      \"breadcrumb\": [\n        \"Engineering Handbook\",\n        \"Release checklist\"\n      ],\n      \"labels\": [\n        \"process\"\n      ],\n      \"author\": \"Priya Shah\",\n      \"last_updated_by\": \"Sam Lee\",\n      \"created\": \"2026-09-01T09:00:00.000Z\",\n      \"updated\": \"2026-10-08T15:30:00.000Z\",\n      \"version\": 4,\n      \"assets\": [],\n      \"warnings\": []\n    }\n  ],\n  \"skipped\": [],\n  \"limits\": []\n}\n"
+    "standard-4-1": {
+      "json": "variants/standard-4-1/sample.json",
+      "zip": "variants/standard-4-1/export.zip"
+    },
+    "standard-5-0": {
+      "json": "variants/standard-5-0/sample.json",
+      "zip": "variants/standard-5-0/export.zip"
+    },
+    "standard-5-1": {
+      "json": "variants/standard-5-1/sample.json",
+      "zip": "variants/standard-5-1/export.zip"
+    },
+    "standard-6-0": {
+      "json": "variants/standard-6-0/sample.json",
+      "zip": "variants/standard-6-0/export.zip"
+    },
+    "standard-6-1": {
+      "json": "variants/standard-6-1/sample.json",
+      "zip": "variants/standard-6-1/export.zip"
+    },
+    "standard-7-0": {
+      "json": "variants/standard-7-0/sample.json",
+      "zip": "variants/standard-7-0/export.zip"
+    },
+    "standard-7-1": {
+      "json": "variants/standard-7-1/sample.json",
+      "zip": "variants/standard-7-1/export.zip"
+    },
+    "standard-8-0": {
+      "json": "variants/standard-8-0/sample.json",
+      "zip": "variants/standard-8-0/export.zip"
+    },
+    "standard-8-1": {
+      "json": "variants/standard-8-1/sample.json",
+      "zip": "variants/standard-8-1/export.zip"
+    },
+    "standard-9-0": {
+      "json": "variants/standard-9-0/sample.json",
+      "zip": "variants/standard-9-0/export.zip"
+    },
+    "standard-9-1": {
+      "json": "variants/standard-9-1/sample.json",
+      "zip": "variants/standard-9-1/export.zip"
+    },
+    "standard-10-0": {
+      "json": "variants/standard-10-0/sample.json",
+      "zip": "variants/standard-10-0/export.zip"
+    },
+    "standard-10-1": {
+      "json": "variants/standard-10-1/sample.json",
+      "zip": "variants/standard-10-1/export.zip"
+    },
+    "standard-11-0": {
+      "json": "variants/standard-11-0/sample.json",
+      "zip": "variants/standard-11-0/export.zip"
+    },
+    "standard-11-1": {
+      "json": "variants/standard-11-1/sample.json",
+      "zip": "variants/standard-11-1/export.zip"
+    },
+    "standard-12-0": {
+      "json": "variants/standard-12-0/sample.json",
+      "zip": "variants/standard-12-0/export.zip"
+    },
+    "standard-12-1": {
+      "json": "variants/standard-12-1/sample.json",
+      "zip": "variants/standard-12-1/export.zip"
+    },
+    "standard-13-0": {
+      "json": "variants/standard-13-0/sample.json",
+      "zip": "variants/standard-13-0/export.zip"
+    },
+    "standard-13-1": {
+      "json": "variants/standard-13-1/sample.json",
+      "zip": "variants/standard-13-1/export.zip"
+    },
+    "standard-14-0": {
+      "json": "variants/standard-14-0/sample.json",
+      "zip": "variants/standard-14-0/export.zip"
+    },
+    "standard-14-1": {
+      "json": "variants/standard-14-1/sample.json",
+      "zip": "variants/standard-14-1/export.zip"
+    },
+    "standard-15-0": {
+      "json": "variants/standard-15-0/sample.json",
+      "zip": "variants/standard-15-0/export.zip"
+    },
+    "standard-15-1": {
+      "json": "variants/standard-15-1/sample.json",
+      "zip": "variants/standard-15-1/export.zip"
+    },
+    "standard-16-0": {
+      "json": "variants/standard-16-0/sample.json",
+      "zip": "variants/standard-16-0/export.zip"
+    },
+    "standard-16-1": {
+      "json": "variants/standard-16-1/sample.json",
+      "zip": "variants/standard-16-1/export.zip"
+    },
+    "standard-17-0": {
+      "json": "variants/standard-17-0/sample.json",
+      "zip": "variants/standard-17-0/export.zip"
+    },
+    "standard-17-1": {
+      "json": "variants/standard-17-1/sample.json",
+      "zip": "variants/standard-17-1/export.zip"
+    },
+    "standard-18-0": {
+      "json": "variants/standard-18-0/sample.json",
+      "zip": "variants/standard-18-0/export.zip"
+    },
+    "standard-18-1": {
+      "json": "variants/standard-18-1/sample.json",
+      "zip": "variants/standard-18-1/export.zip"
+    },
+    "standard-19-0": {
+      "json": "variants/standard-19-0/sample.json",
+      "zip": "variants/standard-19-0/export.zip"
+    },
+    "standard-19-1": {
+      "json": "variants/standard-19-1/sample.json",
+      "zip": "variants/standard-19-1/export.zip"
+    },
+    "standard-20-0": {
+      "json": "variants/standard-20-0/sample.json",
+      "zip": "variants/standard-20-0/export.zip"
+    },
+    "standard-20-1": {
+      "json": "variants/standard-20-1/sample.json",
+      "zip": "variants/standard-20-1/export.zip"
+    },
+    "standard-21-0": {
+      "json": "variants/standard-21-0/sample.json",
+      "zip": "variants/standard-21-0/export.zip"
+    },
+    "standard-21-1": {
+      "json": "variants/standard-21-1/sample.json",
+      "zip": "variants/standard-21-1/export.zip"
+    },
+    "standard-22-0": {
+      "json": "variants/standard-22-0/sample.json",
+      "zip": "variants/standard-22-0/export.zip"
+    },
+    "standard-22-1": {
+      "json": "variants/standard-22-1/sample.json",
+      "zip": "variants/standard-22-1/export.zip"
+    },
+    "standard-23-0": {
+      "json": "variants/standard-23-0/sample.json",
+      "zip": "variants/standard-23-0/export.zip"
+    },
+    "standard-23-1": {
+      "json": "variants/standard-23-1/sample.json",
+      "zip": "variants/standard-23-1/export.zip"
+    },
+    "standard-24-0": {
+      "json": "variants/standard-24-0/sample.json",
+      "zip": "variants/standard-24-0/export.zip"
+    },
+    "standard-24-1": {
+      "json": "variants/standard-24-1/sample.json",
+      "zip": "variants/standard-24-1/export.zip"
+    },
+    "standard-25-0": {
+      "json": "variants/standard-25-0/sample.json",
+      "zip": "variants/standard-25-0/export.zip"
+    },
+    "standard-25-1": {
+      "json": "variants/standard-25-1/sample.json",
+      "zip": "variants/standard-25-1/export.zip"
+    },
+    "standard-26-0": {
+      "json": "variants/standard-26-0/sample.json",
+      "zip": "variants/standard-26-0/export.zip"
+    },
+    "standard-26-1": {
+      "json": "variants/standard-26-1/sample.json",
+      "zip": "variants/standard-26-1/export.zip"
+    },
+    "standard-27-0": {
+      "json": "variants/standard-27-0/sample.json",
+      "zip": "variants/standard-27-0/export.zip"
+    },
+    "standard-27-1": {
+      "json": "variants/standard-27-1/sample.json",
+      "zip": "variants/standard-27-1/export.zip"
+    },
+    "standard-28-0": {
+      "json": "variants/standard-28-0/sample.json",
+      "zip": "variants/standard-28-0/export.zip"
+    },
+    "standard-28-1": {
+      "json": "variants/standard-28-1/sample.json",
+      "zip": "variants/standard-28-1/export.zip"
+    },
+    "standard-29-0": {
+      "json": "variants/standard-29-0/sample.json",
+      "zip": "variants/standard-29-0/export.zip"
+    },
+    "standard-29-1": {
+      "json": "variants/standard-29-1/sample.json",
+      "zip": "variants/standard-29-1/export.zip"
+    },
+    "standard-30-0": {
+      "json": "variants/standard-30-0/sample.json",
+      "zip": "variants/standard-30-0/export.zip"
+    },
+    "standard-30-1": {
+      "json": "variants/standard-30-1/sample.json",
+      "zip": "variants/standard-30-1/export.zip"
+    },
+    "standard-31-0": {
+      "json": "variants/standard-31-0/sample.json",
+      "zip": "variants/standard-31-0/export.zip"
+    },
+    "standard-31-1": {
+      "json": "variants/standard-31-1/sample.json",
+      "zip": "variants/standard-31-1/export.zip"
+    },
+    "obsidian-1-0": {
+      "json": "variants/obsidian-1-0/sample.json",
+      "zip": "variants/obsidian-1-0/export.zip"
+    },
+    "obsidian-1-1": {
+      "json": "variants/obsidian-1-1/sample.json",
+      "zip": "variants/obsidian-1-1/export.zip"
+    },
+    "obsidian-2-0": {
+      "json": "variants/obsidian-2-0/sample.json",
+      "zip": "variants/obsidian-2-0/export.zip"
+    },
+    "obsidian-2-1": {
+      "json": "variants/obsidian-2-1/sample.json",
+      "zip": "variants/obsidian-2-1/export.zip"
+    },
+    "obsidian-3-0": {
+      "json": "variants/obsidian-3-0/sample.json",
+      "zip": "variants/obsidian-3-0/export.zip"
+    },
+    "obsidian-3-1": {
+      "json": "variants/obsidian-3-1/sample.json",
+      "zip": "variants/obsidian-3-1/export.zip"
+    },
+    "obsidian-4-0": {
+      "json": "variants/obsidian-4-0/sample.json",
+      "zip": "variants/obsidian-4-0/export.zip"
+    },
+    "obsidian-4-1": {
+      "json": "variants/obsidian-4-1/sample.json",
+      "zip": "variants/obsidian-4-1/export.zip"
+    },
+    "obsidian-5-0": {
+      "json": "variants/obsidian-5-0/sample.json",
+      "zip": "variants/obsidian-5-0/export.zip"
+    },
+    "obsidian-5-1": {
+      "json": "variants/obsidian-5-1/sample.json",
+      "zip": "variants/obsidian-5-1/export.zip"
+    },
+    "obsidian-6-0": {
+      "json": "variants/obsidian-6-0/sample.json",
+      "zip": "variants/obsidian-6-0/export.zip"
+    },
+    "obsidian-6-1": {
+      "json": "variants/obsidian-6-1/sample.json",
+      "zip": "variants/obsidian-6-1/export.zip"
+    },
+    "obsidian-7-0": {
+      "json": "variants/obsidian-7-0/sample.json",
+      "zip": "variants/obsidian-7-0/export.zip"
+    },
+    "obsidian-7-1": {
+      "json": "variants/obsidian-7-1/sample.json",
+      "zip": "variants/obsidian-7-1/export.zip"
+    },
+    "obsidian-8-0": {
+      "json": "variants/obsidian-8-0/sample.json",
+      "zip": "variants/obsidian-8-0/export.zip"
+    },
+    "obsidian-8-1": {
+      "json": "variants/obsidian-8-1/sample.json",
+      "zip": "variants/obsidian-8-1/export.zip"
+    },
+    "obsidian-9-0": {
+      "json": "variants/obsidian-9-0/sample.json",
+      "zip": "variants/obsidian-9-0/export.zip"
+    },
+    "obsidian-9-1": {
+      "json": "variants/obsidian-9-1/sample.json",
+      "zip": "variants/obsidian-9-1/export.zip"
+    },
+    "obsidian-10-0": {
+      "json": "variants/obsidian-10-0/sample.json",
+      "zip": "variants/obsidian-10-0/export.zip"
+    },
+    "obsidian-10-1": {
+      "json": "variants/obsidian-10-1/sample.json",
+      "zip": "variants/obsidian-10-1/export.zip"
+    },
+    "obsidian-11-0": {
+      "json": "variants/obsidian-11-0/sample.json",
+      "zip": "variants/obsidian-11-0/export.zip"
+    },
+    "obsidian-11-1": {
+      "json": "variants/obsidian-11-1/sample.json",
+      "zip": "variants/obsidian-11-1/export.zip"
+    },
+    "obsidian-12-0": {
+      "json": "variants/obsidian-12-0/sample.json",
+      "zip": "variants/obsidian-12-0/export.zip"
+    },
+    "obsidian-12-1": {
+      "json": "variants/obsidian-12-1/sample.json",
+      "zip": "variants/obsidian-12-1/export.zip"
+    },
+    "obsidian-13-0": {
+      "json": "variants/obsidian-13-0/sample.json",
+      "zip": "variants/obsidian-13-0/export.zip"
+    },
+    "obsidian-13-1": {
+      "json": "variants/obsidian-13-1/sample.json",
+      "zip": "variants/obsidian-13-1/export.zip"
+    },
+    "obsidian-14-0": {
+      "json": "variants/obsidian-14-0/sample.json",
+      "zip": "variants/obsidian-14-0/export.zip"
+    },
+    "obsidian-14-1": {
+      "json": "variants/obsidian-14-1/sample.json",
+      "zip": "variants/obsidian-14-1/export.zip"
+    },
+    "obsidian-15-0": {
+      "json": "variants/obsidian-15-0/sample.json",
+      "zip": "variants/obsidian-15-0/export.zip"
+    },
+    "obsidian-15-1": {
+      "json": "variants/obsidian-15-1/sample.json",
+      "zip": "variants/obsidian-15-1/export.zip"
+    },
+    "obsidian-16-0": {
+      "json": "variants/obsidian-16-0/sample.json",
+      "zip": "variants/obsidian-16-0/export.zip"
+    },
+    "obsidian-16-1": {
+      "json": "variants/obsidian-16-1/sample.json",
+      "zip": "variants/obsidian-16-1/export.zip"
+    },
+    "obsidian-17-0": {
+      "json": "variants/obsidian-17-0/sample.json",
+      "zip": "variants/obsidian-17-0/export.zip"
+    },
+    "obsidian-17-1": {
+      "json": "variants/obsidian-17-1/sample.json",
+      "zip": "variants/obsidian-17-1/export.zip"
+    },
+    "obsidian-18-0": {
+      "json": "variants/obsidian-18-0/sample.json",
+      "zip": "variants/obsidian-18-0/export.zip"
+    },
+    "obsidian-18-1": {
+      "json": "variants/obsidian-18-1/sample.json",
+      "zip": "variants/obsidian-18-1/export.zip"
+    },
+    "obsidian-19-0": {
+      "json": "variants/obsidian-19-0/sample.json",
+      "zip": "variants/obsidian-19-0/export.zip"
+    },
+    "obsidian-19-1": {
+      "json": "variants/obsidian-19-1/sample.json",
+      "zip": "variants/obsidian-19-1/export.zip"
+    },
+    "obsidian-20-0": {
+      "json": "variants/obsidian-20-0/sample.json",
+      "zip": "variants/obsidian-20-0/export.zip"
+    },
+    "obsidian-20-1": {
+      "json": "variants/obsidian-20-1/sample.json",
+      "zip": "variants/obsidian-20-1/export.zip"
+    },
+    "obsidian-21-0": {
+      "json": "variants/obsidian-21-0/sample.json",
+      "zip": "variants/obsidian-21-0/export.zip"
+    },
+    "obsidian-21-1": {
+      "json": "variants/obsidian-21-1/sample.json",
+      "zip": "variants/obsidian-21-1/export.zip"
+    },
+    "obsidian-22-0": {
+      "json": "variants/obsidian-22-0/sample.json",
+      "zip": "variants/obsidian-22-0/export.zip"
+    },
+    "obsidian-22-1": {
+      "json": "variants/obsidian-22-1/sample.json",
+      "zip": "variants/obsidian-22-1/export.zip"
+    },
+    "obsidian-23-0": {
+      "json": "variants/obsidian-23-0/sample.json",
+      "zip": "variants/obsidian-23-0/export.zip"
+    },
+    "obsidian-23-1": {
+      "json": "variants/obsidian-23-1/sample.json",
+      "zip": "variants/obsidian-23-1/export.zip"
+    },
+    "obsidian-24-0": {
+      "json": "variants/obsidian-24-0/sample.json",
+      "zip": "variants/obsidian-24-0/export.zip"
+    },
+    "obsidian-24-1": {
+      "json": "variants/obsidian-24-1/sample.json",
+      "zip": "variants/obsidian-24-1/export.zip"
+    },
+    "obsidian-25-0": {
+      "json": "variants/obsidian-25-0/sample.json",
+      "zip": "variants/obsidian-25-0/export.zip"
+    },
+    "obsidian-25-1": {
+      "json": "variants/obsidian-25-1/sample.json",
+      "zip": "variants/obsidian-25-1/export.zip"
+    },
+    "obsidian-26-0": {
+      "json": "variants/obsidian-26-0/sample.json",
+      "zip": "variants/obsidian-26-0/export.zip"
+    },
+    "obsidian-26-1": {
+      "json": "variants/obsidian-26-1/sample.json",
+      "zip": "variants/obsidian-26-1/export.zip"
+    },
+    "obsidian-27-0": {
+      "json": "variants/obsidian-27-0/sample.json",
+      "zip": "variants/obsidian-27-0/export.zip"
+    },
+    "obsidian-27-1": {
+      "json": "variants/obsidian-27-1/sample.json",
+      "zip": "variants/obsidian-27-1/export.zip"
+    },
+    "obsidian-28-0": {
+      "json": "variants/obsidian-28-0/sample.json",
+      "zip": "variants/obsidian-28-0/export.zip"
+    },
+    "obsidian-28-1": {
+      "json": "variants/obsidian-28-1/sample.json",
+      "zip": "variants/obsidian-28-1/export.zip"
+    },
+    "obsidian-29-0": {
+      "json": "variants/obsidian-29-0/sample.json",
+      "zip": "variants/obsidian-29-0/export.zip"
+    },
+    "obsidian-29-1": {
+      "json": "variants/obsidian-29-1/sample.json",
+      "zip": "variants/obsidian-29-1/export.zip"
+    },
+    "obsidian-30-0": {
+      "json": "variants/obsidian-30-0/sample.json",
+      "zip": "variants/obsidian-30-0/export.zip"
+    },
+    "obsidian-30-1": {
+      "json": "variants/obsidian-30-1/sample.json",
+      "zip": "variants/obsidian-30-1/export.zip"
+    },
+    "obsidian-31-0": {
+      "json": "variants/obsidian-31-0/sample.json",
+      "zip": "variants/obsidian-31-0/export.zip"
+    },
+    "obsidian-31-1": {
+      "json": "variants/obsidian-31-1/sample.json",
+      "zip": "variants/obsidian-31-1/export.zip"
+    },
+    "git-1-0": {
+      "json": "variants/git-1-0/sample.json",
+      "zip": "variants/git-1-0/export.zip"
+    },
+    "git-1-1": {
+      "json": "variants/git-1-1/sample.json",
+      "zip": "variants/git-1-1/export.zip"
+    },
+    "git-2-0": {
+      "json": "variants/git-2-0/sample.json",
+      "zip": "variants/git-2-0/export.zip"
+    },
+    "git-2-1": {
+      "json": "variants/git-2-1/sample.json",
+      "zip": "variants/git-2-1/export.zip"
+    },
+    "git-3-0": {
+      "json": "variants/git-3-0/sample.json",
+      "zip": "variants/git-3-0/export.zip"
+    },
+    "git-3-1": {
+      "json": "variants/git-3-1/sample.json",
+      "zip": "variants/git-3-1/export.zip"
+    },
+    "git-4-0": {
+      "json": "variants/git-4-0/sample.json",
+      "zip": "variants/git-4-0/export.zip"
+    },
+    "git-4-1": {
+      "json": "variants/git-4-1/sample.json",
+      "zip": "variants/git-4-1/export.zip"
+    },
+    "git-5-0": {
+      "json": "variants/git-5-0/sample.json",
+      "zip": "variants/git-5-0/export.zip"
+    },
+    "git-5-1": {
+      "json": "variants/git-5-1/sample.json",
+      "zip": "variants/git-5-1/export.zip"
+    },
+    "git-6-0": {
+      "json": "variants/git-6-0/sample.json",
+      "zip": "variants/git-6-0/export.zip"
+    },
+    "git-6-1": {
+      "json": "variants/git-6-1/sample.json",
+      "zip": "variants/git-6-1/export.zip"
+    },
+    "git-7-0": {
+      "json": "variants/git-7-0/sample.json",
+      "zip": "variants/git-7-0/export.zip"
+    },
+    "git-7-1": {
+      "json": "variants/git-7-1/sample.json",
+      "zip": "variants/git-7-1/export.zip"
+    },
+    "git-8-0": {
+      "json": "variants/git-8-0/sample.json",
+      "zip": "variants/git-8-0/export.zip"
+    },
+    "git-8-1": {
+      "json": "variants/git-8-1/sample.json",
+      "zip": "variants/git-8-1/export.zip"
+    },
+    "git-9-0": {
+      "json": "variants/git-9-0/sample.json",
+      "zip": "variants/git-9-0/export.zip"
+    },
+    "git-9-1": {
+      "json": "variants/git-9-1/sample.json",
+      "zip": "variants/git-9-1/export.zip"
+    },
+    "git-10-0": {
+      "json": "variants/git-10-0/sample.json",
+      "zip": "variants/git-10-0/export.zip"
+    },
+    "git-10-1": {
+      "json": "variants/git-10-1/sample.json",
+      "zip": "variants/git-10-1/export.zip"
+    },
+    "git-11-0": {
+      "json": "variants/git-11-0/sample.json",
+      "zip": "variants/git-11-0/export.zip"
+    },
+    "git-11-1": {
+      "json": "variants/git-11-1/sample.json",
+      "zip": "variants/git-11-1/export.zip"
+    },
+    "git-12-0": {
+      "json": "variants/git-12-0/sample.json",
+      "zip": "variants/git-12-0/export.zip"
+    },
+    "git-12-1": {
+      "json": "variants/git-12-1/sample.json",
+      "zip": "variants/git-12-1/export.zip"
+    },
+    "git-13-0": {
+      "json": "variants/git-13-0/sample.json",
+      "zip": "variants/git-13-0/export.zip"
+    },
+    "git-13-1": {
+      "json": "variants/git-13-1/sample.json",
+      "zip": "variants/git-13-1/export.zip"
+    },
+    "git-14-0": {
+      "json": "variants/git-14-0/sample.json",
+      "zip": "variants/git-14-0/export.zip"
+    },
+    "git-14-1": {
+      "json": "variants/git-14-1/sample.json",
+      "zip": "variants/git-14-1/export.zip"
+    },
+    "git-15-0": {
+      "json": "variants/git-15-0/sample.json",
+      "zip": "variants/git-15-0/export.zip"
+    },
+    "git-15-1": {
+      "json": "variants/git-15-1/sample.json",
+      "zip": "variants/git-15-1/export.zip"
+    },
+    "git-16-0": {
+      "json": "variants/git-16-0/sample.json",
+      "zip": "variants/git-16-0/export.zip"
+    },
+    "git-16-1": {
+      "json": "variants/git-16-1/sample.json",
+      "zip": "variants/git-16-1/export.zip"
+    },
+    "git-17-0": {
+      "json": "variants/git-17-0/sample.json",
+      "zip": "variants/git-17-0/export.zip"
+    },
+    "git-17-1": {
+      "json": "variants/git-17-1/sample.json",
+      "zip": "variants/git-17-1/export.zip"
+    },
+    "git-18-0": {
+      "json": "variants/git-18-0/sample.json",
+      "zip": "variants/git-18-0/export.zip"
+    },
+    "git-18-1": {
+      "json": "variants/git-18-1/sample.json",
+      "zip": "variants/git-18-1/export.zip"
+    },
+    "git-19-0": {
+      "json": "variants/git-19-0/sample.json",
+      "zip": "variants/git-19-0/export.zip"
+    },
+    "git-19-1": {
+      "json": "variants/git-19-1/sample.json",
+      "zip": "variants/git-19-1/export.zip"
+    },
+    "git-20-0": {
+      "json": "variants/git-20-0/sample.json",
+      "zip": "variants/git-20-0/export.zip"
+    },
+    "git-20-1": {
+      "json": "variants/git-20-1/sample.json",
+      "zip": "variants/git-20-1/export.zip"
+    },
+    "git-21-0": {
+      "json": "variants/git-21-0/sample.json",
+      "zip": "variants/git-21-0/export.zip"
+    },
+    "git-21-1": {
+      "json": "variants/git-21-1/sample.json",
+      "zip": "variants/git-21-1/export.zip"
+    },
+    "git-22-0": {
+      "json": "variants/git-22-0/sample.json",
+      "zip": "variants/git-22-0/export.zip"
+    },
+    "git-22-1": {
+      "json": "variants/git-22-1/sample.json",
+      "zip": "variants/git-22-1/export.zip"
+    },
+    "git-23-0": {
+      "json": "variants/git-23-0/sample.json",
+      "zip": "variants/git-23-0/export.zip"
+    },
+    "git-23-1": {
+      "json": "variants/git-23-1/sample.json",
+      "zip": "variants/git-23-1/export.zip"
+    },
+    "git-24-0": {
+      "json": "variants/git-24-0/sample.json",
+      "zip": "variants/git-24-0/export.zip"
+    },
+    "git-24-1": {
+      "json": "variants/git-24-1/sample.json",
+      "zip": "variants/git-24-1/export.zip"
+    },
+    "git-25-0": {
+      "json": "variants/git-25-0/sample.json",
+      "zip": "variants/git-25-0/export.zip"
+    },
+    "git-25-1": {
+      "json": "variants/git-25-1/sample.json",
+      "zip": "variants/git-25-1/export.zip"
+    },
+    "git-26-0": {
+      "json": "variants/git-26-0/sample.json",
+      "zip": "variants/git-26-0/export.zip"
+    },
+    "git-26-1": {
+      "json": "variants/git-26-1/sample.json",
+      "zip": "variants/git-26-1/export.zip"
+    },
+    "git-27-0": {
+      "json": "variants/git-27-0/sample.json",
+      "zip": "variants/git-27-0/export.zip"
+    },
+    "git-27-1": {
+      "json": "variants/git-27-1/sample.json",
+      "zip": "variants/git-27-1/export.zip"
+    },
+    "git-28-0": {
+      "json": "variants/git-28-0/sample.json",
+      "zip": "variants/git-28-0/export.zip"
+    },
+    "git-28-1": {
+      "json": "variants/git-28-1/sample.json",
+      "zip": "variants/git-28-1/export.zip"
+    },
+    "git-29-0": {
+      "json": "variants/git-29-0/sample.json",
+      "zip": "variants/git-29-0/export.zip"
+    },
+    "git-29-1": {
+      "json": "variants/git-29-1/sample.json",
+      "zip": "variants/git-29-1/export.zip"
+    },
+    "git-30-0": {
+      "json": "variants/git-30-0/sample.json",
+      "zip": "variants/git-30-0/export.zip"
+    },
+    "git-30-1": {
+      "json": "variants/git-30-1/sample.json",
+      "zip": "variants/git-30-1/export.zip"
+    },
+    "git-31-0": {
+      "json": "variants/git-31-0/sample.json",
+      "zip": "variants/git-31-0/export.zip"
+    },
+    "git-31-1": {
+      "json": "variants/git-31-1/sample.json",
+      "zip": "variants/git-31-1/export.zip"
+    },
+    "context-1-0": {
+      "json": "variants/context-1-0/sample.json",
+      "zip": "variants/context-1-0/export.zip"
+    },
+    "context-1-1": {
+      "json": "variants/context-1-1/sample.json",
+      "zip": "variants/context-1-1/export.zip"
+    },
+    "context-2-0": {
+      "json": "variants/context-2-0/sample.json",
+      "zip": "variants/context-2-0/export.zip"
+    },
+    "context-2-1": {
+      "json": "variants/context-2-1/sample.json",
+      "zip": "variants/context-2-1/export.zip"
+    },
+    "context-3-0": {
+      "json": "variants/context-3-0/sample.json",
+      "zip": "variants/context-3-0/export.zip"
+    },
+    "context-3-1": {
+      "json": "variants/context-3-1/sample.json",
+      "zip": "variants/context-3-1/export.zip"
+    },
+    "context-4-0": {
+      "json": "variants/context-4-0/sample.json",
+      "zip": "variants/context-4-0/export.zip"
+    },
+    "context-4-1": {
+      "json": "variants/context-4-1/sample.json",
+      "zip": "variants/context-4-1/export.zip"
+    },
+    "context-5-0": {
+      "json": "variants/context-5-0/sample.json",
+      "zip": "variants/context-5-0/export.zip"
+    },
+    "context-5-1": {
+      "json": "variants/context-5-1/sample.json",
+      "zip": "variants/context-5-1/export.zip"
+    },
+    "context-6-0": {
+      "json": "variants/context-6-0/sample.json",
+      "zip": "variants/context-6-0/export.zip"
+    },
+    "context-6-1": {
+      "json": "variants/context-6-1/sample.json",
+      "zip": "variants/context-6-1/export.zip"
+    },
+    "context-7-0": {
+      "json": "variants/context-7-0/sample.json",
+      "zip": "variants/context-7-0/export.zip"
+    },
+    "context-7-1": {
+      "json": "variants/context-7-1/sample.json",
+      "zip": "variants/context-7-1/export.zip"
+    },
+    "context-8-0": {
+      "json": "variants/context-8-0/sample.json",
+      "zip": "variants/context-8-0/export.zip"
+    },
+    "context-8-1": {
+      "json": "variants/context-8-1/sample.json",
+      "zip": "variants/context-8-1/export.zip"
+    },
+    "context-9-0": {
+      "json": "variants/context-9-0/sample.json",
+      "zip": "variants/context-9-0/export.zip"
+    },
+    "context-9-1": {
+      "json": "variants/context-9-1/sample.json",
+      "zip": "variants/context-9-1/export.zip"
+    },
+    "context-10-0": {
+      "json": "variants/context-10-0/sample.json",
+      "zip": "variants/context-10-0/export.zip"
+    },
+    "context-10-1": {
+      "json": "variants/context-10-1/sample.json",
+      "zip": "variants/context-10-1/export.zip"
+    },
+    "context-11-0": {
+      "json": "variants/context-11-0/sample.json",
+      "zip": "variants/context-11-0/export.zip"
+    },
+    "context-11-1": {
+      "json": "variants/context-11-1/sample.json",
+      "zip": "variants/context-11-1/export.zip"
+    },
+    "context-12-0": {
+      "json": "variants/context-12-0/sample.json",
+      "zip": "variants/context-12-0/export.zip"
+    },
+    "context-12-1": {
+      "json": "variants/context-12-1/sample.json",
+      "zip": "variants/context-12-1/export.zip"
+    },
+    "context-13-0": {
+      "json": "variants/context-13-0/sample.json",
+      "zip": "variants/context-13-0/export.zip"
+    },
+    "context-13-1": {
+      "json": "variants/context-13-1/sample.json",
+      "zip": "variants/context-13-1/export.zip"
+    },
+    "context-14-0": {
+      "json": "variants/context-14-0/sample.json",
+      "zip": "variants/context-14-0/export.zip"
+    },
+    "context-14-1": {
+      "json": "variants/context-14-1/sample.json",
+      "zip": "variants/context-14-1/export.zip"
+    },
+    "context-15-0": {
+      "json": "variants/context-15-0/sample.json",
+      "zip": "variants/context-15-0/export.zip"
+    },
+    "context-15-1": {
+      "json": "variants/context-15-1/sample.json",
+      "zip": "variants/context-15-1/export.zip"
+    },
+    "context-16-0": {
+      "json": "variants/context-16-0/sample.json",
+      "zip": "variants/context-16-0/export.zip"
+    },
+    "context-16-1": {
+      "json": "variants/context-16-1/sample.json",
+      "zip": "variants/context-16-1/export.zip"
+    },
+    "context-17-0": {
+      "json": "variants/context-17-0/sample.json",
+      "zip": "variants/context-17-0/export.zip"
+    },
+    "context-17-1": {
+      "json": "variants/context-17-1/sample.json",
+      "zip": "variants/context-17-1/export.zip"
+    },
+    "context-18-0": {
+      "json": "variants/context-18-0/sample.json",
+      "zip": "variants/context-18-0/export.zip"
+    },
+    "context-18-1": {
+      "json": "variants/context-18-1/sample.json",
+      "zip": "variants/context-18-1/export.zip"
+    },
+    "context-19-0": {
+      "json": "variants/context-19-0/sample.json",
+      "zip": "variants/context-19-0/export.zip"
+    },
+    "context-19-1": {
+      "json": "variants/context-19-1/sample.json",
+      "zip": "variants/context-19-1/export.zip"
+    },
+    "context-20-0": {
+      "json": "variants/context-20-0/sample.json",
+      "zip": "variants/context-20-0/export.zip"
+    },
+    "context-20-1": {
+      "json": "variants/context-20-1/sample.json",
+      "zip": "variants/context-20-1/export.zip"
+    },
+    "context-21-0": {
+      "json": "variants/context-21-0/sample.json",
+      "zip": "variants/context-21-0/export.zip"
+    },
+    "context-21-1": {
+      "json": "variants/context-21-1/sample.json",
+      "zip": "variants/context-21-1/export.zip"
+    },
+    "context-22-0": {
+      "json": "variants/context-22-0/sample.json",
+      "zip": "variants/context-22-0/export.zip"
+    },
+    "context-22-1": {
+      "json": "variants/context-22-1/sample.json",
+      "zip": "variants/context-22-1/export.zip"
+    },
+    "context-23-0": {
+      "json": "variants/context-23-0/sample.json",
+      "zip": "variants/context-23-0/export.zip"
+    },
+    "context-23-1": {
+      "json": "variants/context-23-1/sample.json",
+      "zip": "variants/context-23-1/export.zip"
+    },
+    "context-24-0": {
+      "json": "variants/context-24-0/sample.json",
+      "zip": "variants/context-24-0/export.zip"
+    },
+    "context-24-1": {
+      "json": "variants/context-24-1/sample.json",
+      "zip": "variants/context-24-1/export.zip"
+    },
+    "context-25-0": {
+      "json": "variants/context-25-0/sample.json",
+      "zip": "variants/context-25-0/export.zip"
+    },
+    "context-25-1": {
+      "json": "variants/context-25-1/sample.json",
+      "zip": "variants/context-25-1/export.zip"
+    },
+    "context-26-0": {
+      "json": "variants/context-26-0/sample.json",
+      "zip": "variants/context-26-0/export.zip"
+    },
+    "context-26-1": {
+      "json": "variants/context-26-1/sample.json",
+      "zip": "variants/context-26-1/export.zip"
+    },
+    "context-27-0": {
+      "json": "variants/context-27-0/sample.json",
+      "zip": "variants/context-27-0/export.zip"
+    },
+    "context-27-1": {
+      "json": "variants/context-27-1/sample.json",
+      "zip": "variants/context-27-1/export.zip"
+    },
+    "context-28-0": {
+      "json": "variants/context-28-0/sample.json",
+      "zip": "variants/context-28-0/export.zip"
+    },
+    "context-28-1": {
+      "json": "variants/context-28-1/sample.json",
+      "zip": "variants/context-28-1/export.zip"
+    },
+    "context-29-0": {
+      "json": "variants/context-29-0/sample.json",
+      "zip": "variants/context-29-0/export.zip"
+    },
+    "context-29-1": {
+      "json": "variants/context-29-1/sample.json",
+      "zip": "variants/context-29-1/export.zip"
+    },
+    "context-30-0": {
+      "json": "variants/context-30-0/sample.json",
+      "zip": "variants/context-30-0/export.zip"
+    },
+    "context-30-1": {
+      "json": "variants/context-30-1/sample.json",
+      "zip": "variants/context-30-1/export.zip"
+    },
+    "context-31-0": {
+      "json": "variants/context-31-0/sample.json",
+      "zip": "variants/context-31-0/export.zip"
+    },
+    "context-31-1": {
+      "json": "variants/context-31-1/sample.json",
+      "zip": "variants/context-31-1/export.zip"
     }
-  ]
+  },
+  "defaultKey": "standard-31-0",
+  "zipName": "ENG-engineering-handbook-2026-10-11.zip"
 }

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 256 256" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Flint Markdown Export</title>
+  <desc id="desc">A folded silver-blue document bearing a Markdown M and down arrow, with a faceted orange export arrow on a rounded navy square.</desc>
+  <defs>
+    <linearGradient id="navy" x1="32" y1="256" x2="210" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#031322"/><stop offset=".58" stop-color="#091b2d"/><stop offset="1" stop-color="#243a50"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="128" y1="0" x2="128" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#536e89" stop-opacity=".65"/><stop offset=".5" stop-color="#142b40" stop-opacity=".15"/><stop offset="1" stop-color="#000c18" stop-opacity=".4"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="174" y1="63" x2="62" y2="205" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#dce8f3"/><stop offset=".45" stop-color="#91b3d0"/><stop offset="1" stop-color="#46769d"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="80" y1="48" x2="163" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f4f7fa"/><stop offset=".48" stop-color="#d1dfeb"/><stop offset="1" stop-color="#85a8c5"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="193" y1="105" x2="133" y2="199" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffcf49"/><stop offset=".48" stop-color="#ff991b"/><stop offset="1" stop-color="#ff500b"/>
+    </linearGradient>
+    <linearGradient id="header" x1="175" y1="57" x2="65" y2="89" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffda66"/><stop offset=".55" stop-color="#ff9c23"/><stop offset="1" stop-color="#ff6010"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="255" height="255" rx="43" fill="url(#navy)" stroke="url(#rim)"/>
+  <g id="document">
+    <path d="M65 46H137L171 80V191Q171 199 163 199H65Q57 199 57 191V54Q57 46 65 46Z" fill="#04111f" opacity=".45" transform="translate(0 5)"/>
+    <path d="M65 46H137L171 80V191Q171 199 163 199H65Q57 199 57 191V54Q57 46 65 46Z" fill="url(#paper)"/>
+    <path d="M57 150L112 173L57 194Z" fill="#70a0c5" opacity=".22"/>
+    <path d="M57 194L112 173L168 199H65Q59 199 57 194Z" fill="#5c89ad" opacity=".22"/>
+    <path d="M137 46V76Q137 81 142 81H171L137 46Z" fill="#f1f6fa"/>
+    <path d="M138 49V76Q138 80 142 80H168" stroke="#ffffff" stroke-opacity=".7"/>
+    <path d="M138 81H171V87Z" fill="#698ca9" opacity=".3"/>
+    <path d="M66 47H135" stroke="#ffffff" stroke-opacity=".7" stroke-linecap="round"/>
+    <g id="markdown" fill="#183951">
+      <path d="M74 137V101H83L94 115L105 101H114V137H104V117L94 129L84 117V137Z"/>
+      <path d="M129 101H139V121H147L134 137L121 121H129Z"/>
+    </g>
+    <path d="M76 156H130M76 170H112" stroke="#668da9" stroke-width="5" stroke-linecap="round" opacity=".65"/>
+  </g>
+  <g id="export">
+    <path d="M170 125L216 164Q221 169 216 174L170 214Q163 219 163 210V191H136Q125 191 125 180V159Q125 148 136 148H163V128Q163 119 170 125Z" fill="#061625"/>
+    <path d="M173 132L212 166Q215 169 212 172L173 206Q169 209 169 203V185H137Q131 185 131 179V159Q131 154 137 154H169V135Q169 129 173 132Z" fill="url(#orange)"/>
+    <path d="M173 132L212 167L181 169L169 154V135Q169 129 173 132Z" fill="#ffda66"/>
+    <path d="M137 154H169L181 169H131V159Q131 154 137 154Z" fill="#ffb532"/>
+    <path d="M131 169H181L169 185H137Q131 185 131 179Z" fill="#ff7a13"/>
+    <path d="M181 169L212 171L173 206Q169 209 169 203V185Z" fill="#f75b0d" opacity=".7"/>
+  </g>
+</svg>

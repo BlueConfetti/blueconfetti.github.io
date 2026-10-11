@@ -11,7 +11,7 @@ last_updated_by: "Sam Lee"
 created: "2026-09-01T09:00:00.000Z"
 updated: "2026-10-08T15:30:00.000Z"
 version: 4
-exported: "2026-10-10T16:00:00Z"
+exported: "2026-10-11T16:00:00Z"
 ---
 
 # Release checklist
@@ -23,3 +23,9 @@ Next release: 2026-10-20 \[IN PROGRESS\]
 - [ ] Announce in `#releases`
 
 - **Decision:** Releases ship on Tuesdays, never Fridays.
+
+## Open release issues
+
+The live issue list is a Confluence macro. Its omission is recorded as a warning in the export.
+
+<!-- macro: jira jql="project = ENG AND resolution = Unresolved" -->

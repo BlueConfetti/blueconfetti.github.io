@@ -69,7 +69,7 @@ Three services, one direction of traffic.
 
 ## Services
 
-<table><tr><th><p>Service</p></th><th><p>Owner</p></th><th><p>Status</p></th></tr><tr><td><p>Web app</p></td><td><p>@Sam Lee</p></td><td><p>[LIVE]</p></td></tr><tr><td><p>API</p></td><td><p>@Priya Shah</p></td><td><p>[MIGRATING]</p></td></tr><tr><td colspan="3"><p>The database is managed by the platform team.</p></td></tr></table>
+<table><tr><th><p>Service</p></th><th><p>Owner</p></th><th><p>Status</p></th></tr><tr><td><p>Web app</p></td><td><p>@Sam Lee</p></td><td><p>[LIVE]</p></td></tr><tr><td><p>API</p></td><td><p>@Priya Shah</p></td><td><p>[MIGRATING]</p></td></tr><tr><td colspan="3"><p>For access, read <a href="engineering-handbook/onboarding.md#before-day-one">Onboarding</a>. The database is managed by the platform team.</p></td></tr></table>
 
 > [!WARNING]
 > Never connect to the production database from a laptop.
@@ -87,3 +87,9 @@ Next release: 2026-10-20 \[IN PROGRESS\]
 - [ ] Announce in `#releases`
 
 - **Decision:** Releases ship on Tuesdays, never Fridays.
+
+## Open release issues
+
+The live issue list is a Confluence macro. Its omission is recorded as a warning in the export.
+
+<!-- macro: jira jql="project = ENG AND resolution = Unresolved" -->
