@@ -4,7 +4,7 @@ Public business website, privacy policy, support information, and Confluence app
 
 Generate the static pages with `bun build.mjs`. GitHub Pages publishes the root of `main`. There are no third-party scripts, fonts, analytics, cookies, or build dependencies. Demo controls do not submit visitor data; the Markdown sample uses only static same-origin files.
 
-Flint is the product family and BlueConfetti the publisher. The Table Glide guide, demo and listing links keep the name Table Glide while its Marketplace submission is under review, because the deployed macro still uses that name. Rename those pages to Flint Table Filter only when the rename ships. Flint Markdown Export remains in development; publishing this website does not release the Forge app.
+Flint is the product family and BlueConfetti the publisher. The Table Glide guide, demo and listing links keep the name Table Glide while its Marketplace submission is under review, because the deployed macro still uses that name. Rename those pages to Flint Table Filter only when the rename ships. Flint Markdown Export is submitted for Marketplace review. Public pages describe the apps without pre-release availability notices; publishing this website does not approve or publish a Marketplace listing.
 
 ## Markdown Export guide and demo
 
