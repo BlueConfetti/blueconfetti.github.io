@@ -4,11 +4,11 @@ Public website for BlueConfetti’s Atlassian Cloud app portfolio, with product 
 
 Generate the static pages with `bun build.mjs`. GitHub Pages publishes the root of `main`. There are no third-party scripts, fonts, analytics, cookies, or build dependencies. Demo controls do not submit visitor data; the Markdown sample uses only static same-origin files.
 
-Flint is the product family and BlueConfetti the publisher. Keep the homepage broad enough for the Atlassian Cloud portfolio. Product pages describe the currently public apps and link to their Marketplace listings. Table Glide keeps its public name, branding and URLs. Change product claims only when the described version is released; a local development candidate does not establish public availability. Publishing this website does not deploy an app or publish a Marketplace listing.
+Flint is the product family and BlueConfetti the publisher. Keep the homepage broad enough for the Atlassian Cloud portfolio. Product pages describe the currently public apps and link to their Marketplace listings. Preserve established product URLs. Change product claims only when the described version is released; a local development candidate does not establish public availability. Publishing this website does not deploy an app or publish a Marketplace listing.
 
 ## Page sources and search metadata
 
-Edit `build.mjs` for the homepage, Table Glide pages, shared navigation and page renderer. `content/markdown-export.mjs` owns the Markdown Export pages and privacy section; `content/seo-guides.mjs` owns the guides index and task walkthroughs. Update source modules, then run `bun build.mjs` and commit the generated HTML, `sitemap.xml` and `robots.txt` together with the source changes.
+Edit `build.mjs` for the homepage, Flint Table Filter pages, shared navigation and page renderer. `content/markdown-export.mjs` owns the Markdown Export pages and privacy section; `content/seo-guides.mjs` owns the guides index and task walkthroughs. Update source modules, then run `bun build.mjs` and commit the generated HTML, `sitemap.xml` and `robots.txt` together with the source changes.
 
 The renderer adds a page title, description, absolute directory canonical, Open Graph and Twitter metadata to every page. `siteUrl` is the canonical origin. The homepage includes factual Organization JSON-LD. Social previews live in `assets/social/` as editable 1200 × 630 SVGs and matching PNGs; the build prefers PNGs when present. Regenerate a PNG whenever its SVG changes. Guide pages can choose a product preview with `ogImage`; other pages use their product or the BlueConfetti preview.
 
@@ -34,7 +34,7 @@ The sample covers hierarchy, completed tasks, code, an SVG image, a text attachm
 
 When updating the demo, check exact selected IDs and options in downloaded manifests, link/path validity, source/ZIP identity, warnings, keyboard focus and modal behavior, error/loading recovery, and narrow/desktop layouts. A local HTTP server is needed for static JSON requests. Do not publish local screenshots, evidence records, private code, credentials or real customer content.
 
-## Table Glide demo
+## Flint Table Filter demo
 
 `assets/table-demo.js` builds a sample table and runs it through `assets/table.mjs`, a verbatim copy of `src/frontend/table.mjs` from the private `table-filter-lite` repository. Copy it only from the app version currently published to customers, so the demo and guide describe the same behavior. The current public version uses 50-row pagination and dropdown filters for repeated values in columns with no more than 50 distinct values. Pending development changes must not appear here before release.
 
