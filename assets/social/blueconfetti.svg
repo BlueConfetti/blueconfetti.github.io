@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#faf8f2"/>
+  <path d="M0 0h1200v14H0z" fill="#1456d9"/>
+  <circle cx="1055" cy="95" r="160" fill="#e8efff"/>
+  <circle cx="1127" cy="571" r="115" fill="#fbe8d7"/>
+  <rect x="78" y="81" width="1044" height="468" rx="30" fill="#ffffff" stroke="#dce3e9" stroke-width="2"/>
+  <image x="132" y="130" width="104" height="104" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQiIGhlaWdodD0iMTQ0IiB2aWV3Qm94PSIwIDAgMTQ0IDE0NCI+PHJlY3Qgd2lkdGg9IjE0NCIgaGVpZ2h0PSIxNDQiIHJ4PSIzMCIgZmlsbD0iIzE0NTZkOSIvPjxnIGZpbGw9IiNmZmYiPjxyZWN0IHg9IjMxIiB5PSIzMiIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByeD0iNCIgdHJhbnNmb3JtPSJyb3RhdGUoLTE0IDQzIDQ0KSIvPjxyZWN0IHg9IjgzIiB5PSIzOCIgd2lkdGg9IjE3IiBoZWlnaHQ9IjMyIiByeD0iNCIgdHJhbnNmb3JtPSJyb3RhdGUoMjcgOTEgNTQpIi8+PHJlY3QgeD0iNDkiIHk9Ijg4IiB3aWR0aD0iMzIiIGhlaWdodD0iMTUiIHJ4PSI0IiB0cmFuc2Zvcm09InJvdGF0ZSgxOSA2NSA5NSkiLz48Y2lyY2xlIGN4PSIxMDUiIGN5PSIxMDEiIHI9IjExIi8+PGNpcmNsZSBjeD0iNDEiIGN5PSI3MiIgcj0iNSIvPjwvZz48L3N2Zz4="/>
+  <text x="132" y="321" fill="#10283e" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="68">BlueConfetti</text>
+  <text x="132" y="390" fill="#425b6e" font-family="Arial, Helvetica, sans-serif" font-size="32">Focused apps for Atlassian Cloud</text>
+  <path d="M132 443h66" stroke="#1456d9" stroke-width="6" stroke-linecap="round"/>
+  <text x="132" y="490" fill="#607487" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="1">BLUECONFETTI.GITHUB.IO</text>
+</svg>

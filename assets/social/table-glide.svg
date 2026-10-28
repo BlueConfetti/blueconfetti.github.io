@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#faf8f2"/>
+  <path d="M0 0h1200v14H0z" fill="#1456d9"/>
+  <circle cx="1055" cy="95" r="160" fill="#e8efff"/>
+  <circle cx="1127" cy="571" r="115" fill="#fbe8d7"/>
+  <rect x="78" y="81" width="1044" height="468" rx="30" fill="#ffffff" stroke="#dce3e9" stroke-width="2"/>
+  <image x="132" y="130" width="104" height="104" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQiIGhlaWdodD0iMTQ0IiB2aWV3Qm94PSIwIDAgMTQ0IDE0NCI+CiAgPHJlY3Qgd2lkdGg9IjE0NCIgaGVpZ2h0PSIxNDQiIHJ4PSIzMCIgZmlsbD0iIzE0NTZkOSIvPgogIDxyZWN0IHg9IjI1IiB5PSIzMCIgd2lkdGg9Ijk0IiBoZWlnaHQ9Ijg0IiByeD0iOCIgZmlsbD0iI2ZmZiIvPgogIDxwYXRoIGQ9Ik0yNSA1NGg5NE0yNSA3OGg5NE0yNSA5Nmg5NE01OSA1NHY2ME05MSA1NHY2MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjY2FkYmZmIiBzdHJva2Utd2lkdGg9IjQiLz4KICA8cGF0aCBkPSJNNzkgNjZoNDZMMTA4IDg2djE5bC0xMiA3Vjg2eiIgZmlsbD0iIzE0NTZkOSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg=="/>
+  <text x="132" y="321" fill="#10283e" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="68">Table Glide</text>
+  <text x="132" y="390" fill="#425b6e" font-family="Arial, Helvetica, sans-serif" font-size="32">Find the rows that matter.</text>
+  <path d="M132 443h66" stroke="#1456d9" stroke-width="6" stroke-linecap="round"/>
+  <text x="132" y="490" fill="#607487" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="1">BLUECONFETTI.GITHUB.IO</text>
+</svg>
