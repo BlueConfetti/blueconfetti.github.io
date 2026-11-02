@@ -36,6 +36,6 @@ When updating the demo, check exact selected IDs and options in downloaded manif
 
 ## Flint Table Filter demo
 
-`assets/table-demo.js` builds a sample table and runs it through `assets/table.mjs`, a verbatim copy of `src/frontend/table.mjs` from the private `table-filter-lite` repository. Copy it only from the app version currently published to customers, so the demo and guide describe the same behavior. The current public version uses 50-row pagination and dropdown filters for repeated values in columns with no more than 50 distinct values. Pending development changes must not appear here before release.
+`assets/table-demo.js` builds a sample table and runs it through `assets/table.mjs`, a verbatim copy of `src/frontend/table.mjs` from the private `table-filter-lite` repository. Copy it only from the app version currently published to customers, so the demo and guide describe the same behavior. The demo interface illustrates basic search, repeated-value dropdowns, sorting and 50-row pagination. Its pure table module matches the combined native-table app source 77eebd7. The full app also provides typed/nested filters, reusable views, presentation controls and downloads; the guide describes those workflows. Keep this verbatim pure-module exception separate from private application source and QA evidence. Publish candidate changes only with the corresponding app release.
 
 Contact aliases were verified in Google Workspace before publication.
