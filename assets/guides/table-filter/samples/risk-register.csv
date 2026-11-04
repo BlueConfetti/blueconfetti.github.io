@@ -1,0 +1,21 @@
+﻿Ref,Type,Description,Owner,Severity,Status,Due,Score
+R-01,Risk,Payment provider contract lapses before renewal,Dana Kim,High,Open,2026-11-20,16
+R-02,Issue,Nightly backup job failed twice,Omar Haddad,Critical,Open,2026-11-05,20
+R-03,Action,Update supplier contact list,Grace Liu,Low,Closed,2026-10-30,4
+R-04,Risk,Key engineer on extended leave in December,,Medium,Open,2026-12-01,12
+R-05,Issue,Customer export emails delayed,Omar Haddad,High,Monitoring,2026-11-12,15
+R-06,Action,Rotate shared service account password,Dana Kim,High,Open,2026-11-03,15
+R-07,Risk,Data center migration overlaps peak season,Felix Wagner,Critical,Open,2026-12-15,25
+R-08,Issue,Duplicate invoices for three customers,Grace Liu,Medium,Closed,2026-10-28,9
+R-09,Action,Review vendor security questionnaire,,Medium,Open,2026-11-06,8
+R-10,Risk,Office lease decision delayed,Felix Wagner,Low,Monitoring,2027-01-15,6
+R-11,Issue,Mobile app crash on older devices,Omar Haddad,High,Open,2026-11-18,16
+R-12,Action,Publish incident review,Dana Kim,Medium,Open,2026-10-31,10
+R-13,Risk,Single supplier for replacement laptops,Grace Liu,Medium,Monitoring,2026-12-10,12
+R-14,Issue,Support queue above target for two weeks,,High,Open,2026-11-13,16
+R-15,Action,Test disaster recovery runbook,Felix Wagner,High,Closed,2026-10-20,15
+R-16,Risk,New privacy regulation affects sign-up flow,Dana Kim,Medium,Open,2027-02-01,9
+R-17,Action,Confirm holiday on-call coverage,Omar Haddad,Low,Open,2026-11-25,4
+R-18,Issue,Search results stale after reindex,Felix Wagner,Medium,Open,2026-11-02,12
+R-19,Risk,Budget approval for monitoring tools,Grace Liu,Low,Open,2026-12-20,6
+R-20,Action,Archive retired project spaces,,Low,Closed,2026-10-15,2

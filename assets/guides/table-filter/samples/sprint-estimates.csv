@@ -1,0 +1,65 @@
+﻿Story ID,Story,Team,Sprint,Status,Estimate
+ST-300,Audit log filters 1,Platform,Sprint 42,To do,3
+ST-301,Sign-in throttling 1,Web,Sprint 43,In progress,13
+ST-302,Offline drafts 1,Mobile,Sprint 44,To do,3
+ST-303,Usage export 1,Data,Sprint 42,Done,5
+ST-304,Billing webhooks 1,Web,Sprint 43,To do,2
+ST-305,Search suggestions 1,Mobile,Sprint 44,In progress,3
+ST-306,Push settings 1,Data,Sprint 42,Done,1
+ST-307,Data retention job 1,Platform,Sprint 43,To do,1
+ST-308,Session timeout 1,Mobile,Sprint 44,To do,5
+ST-309,Saved filters 1,Data,Sprint 42,In progress,8
+ST-310,Dark mode polish 1,Platform,Sprint 43,To do,8
+ST-311,Import validation 1,Web,Sprint 44,Done,2
+ST-312,Rate limit headers 1,Data,Sprint 42,To do,3
+ST-313,Profile photos 1,Platform,Sprint 43,In progress,5
+ST-314,Release banner 1,Web,Sprint 44,Done,2
+ST-315,Warehouse sync 1,Mobile,Sprint 42,To do,3
+ST-316,Audit log filters 2,Platform,Sprint 43,To do,13
+ST-317,Sign-in throttling 2,Web,Sprint 44,In progress,TBD
+ST-318,Offline drafts 2,Mobile,Sprint 42,To do,5
+ST-319,Usage export 2,Data,Sprint 43,Done,2
+ST-320,Billing webhooks 2,Web,Sprint 44,To do,3
+ST-321,Search suggestions 2,Mobile,Sprint 42,In progress,1
+ST-322,Push settings 2,Data,Sprint 43,Done,1
+ST-323,Data retention job 2,Platform,Sprint 44,To do,5
+ST-324,Session timeout 2,Mobile,Sprint 42,To do,8
+ST-325,Saved filters 2,Data,Sprint 43,In progress,8
+ST-326,Dark mode polish 2,Platform,Sprint 44,To do,2
+ST-327,Import validation 2,Web,Sprint 42,Done,3
+ST-328,Rate limit headers 2,Data,Sprint 43,To do,5
+ST-329,Profile photos 2,Platform,Sprint 44,In progress,2
+ST-330,Release banner 2,Web,Sprint 42,Done,3
+ST-331,Warehouse sync 2,Mobile,Sprint 43,To do,13
+ST-332,Audit log filters 3,Platform,Sprint 44,To do,3
+ST-333,Sign-in throttling 3,Web,Sprint 42,In progress,5
+ST-334,Offline drafts 3,Mobile,Sprint 43,To do,2
+ST-335,Usage export 3,Data,Sprint 44,Done,3
+ST-336,Billing webhooks 3,Web,Sprint 42,To do,1
+ST-337,Search suggestions 3,,Sprint 43,In progress,1
+ST-338,Push settings 3,Data,Sprint 44,Done,5
+ST-339,Data retention job 3,Platform,Sprint 42,To do,8
+ST-340,Session timeout 3,Mobile,Sprint 43,To do,
+ST-341,Saved filters 3,Data,Sprint 44,In progress,2
+ST-342,Dark mode polish 3,Platform,Sprint 42,To do,3
+ST-343,Import validation 3,Web,Sprint 43,Done,5
+ST-344,Rate limit headers 3,Data,Sprint 44,To do,2
+ST-345,Profile photos 3,Platform,Sprint 42,In progress,3
+ST-346,Release banner 3,Web,Sprint 43,Done,13
+ST-347,Warehouse sync 3,Mobile,Sprint 44,To do,3
+ST-348,Audit log filters 4,Platform,Sprint 42,To do,5
+ST-349,Sign-in throttling 4,Web,Sprint 43,In progress,2
+ST-350,Offline drafts 4,Mobile,Sprint 44,To do,3
+ST-351,Usage export 4,Data,Sprint 42,Done,1
+ST-352,Billing webhooks 4,Web,Sprint 43,To do,TBD
+ST-353,Search suggestions 4,Mobile,Sprint 44,In progress,5
+ST-354,Push settings 4,Data,Sprint 42,Done,8
+ST-355,Data retention job 4,Platform,Sprint 43,To do,8
+ST-356,Session timeout 4,Mobile,Sprint 44,To do,2
+ST-357,Saved filters 4,Data,Sprint 42,In progress,3
+ST-358,Dark mode polish 4,Platform,Sprint 43,To do,5
+ST-359,Import validation 4,Web,Sprint 44,Done,2
+ST-360,Rate limit headers 4,Data,Sprint 42,To do,3
+ST-361,Profile photos 4,Platform,Sprint 43,In progress,13
+ST-362,Release banner 4,Web,Sprint 44,Done,3
+ST-363,Warehouse sync 4,Mobile,Sprint 42,To do,5

@@ -1,0 +1,29 @@
+﻿Req ID,Requirement,Release,Component,Owner,Status,Evidence
+REQ-001,Users can reset a password from the sign-in page,2026-R3,Accounts,Maya Patel,Verified,https://qa.example.com/runs/0400
+REQ-002,Admins can export the audit log as CSV,2026-R4,Admin,Ines Duarte,Implemented,
+REQ-003,Invoices show tax per line item,2026-R4,Billing,Diego Alvarez,Verified,https://qa.example.com/runs/0406
+REQ-004,"Search returns results within two seconds for 10,000 records",2027-R1,Search,Chen Wei,Draft,
+REQ-005,Users can switch between light and dark themes,2026-R3,Interface,Maya Patel,Verified,https://qa.example.com/runs/0412
+REQ-006,Failed payments trigger a retry after 24 hours,2026-R4,Billing,Ines Duarte,Verified,https://qa.example.com/runs/0415
+REQ-007,Admins can require two-step verification,2026-R4,Accounts,Diego Alvarez,Implemented,
+REQ-008,Notifications respect quiet hours,2027-R1,Notifications,Chen Wei,Draft,
+REQ-009,Search highlights matching words,2026-R3,Search,Maya Patel,Verified,https://qa.example.com/runs/0424
+REQ-010,Users can download their data,2026-R4,Accounts,Ines Duarte,Verified,
+REQ-011,Admins can restrict sign-in by email domain,2026-R4,Admin,Diego Alvarez,Verified,https://qa.example.com/runs/0430
+REQ-012,Receipts are emailed after each payment,2027-R1,Billing,Chen Wei,Draft,
+REQ-013,Keyboard users can reach every menu item,2026-R3,Interface,Maya Patel,Verified,https://qa.example.com/runs/0436
+REQ-014,Notification emails include an unsubscribe link,2026-R4,Notifications,Ines Duarte,Implemented,https://qa.example.com/runs/0461
+REQ-015,Saved searches can be shared with a team,2026-R4,Search,Diego Alvarez,Verified,https://qa.example.com/runs/0442
+REQ-016,Admins can review active sessions,2027-R1,Admin,Chen Wei,Draft,
+REQ-017,Users can change the display language,2026-R3,Interface,Maya Patel,Verified,https://qa.example.com/runs/0448
+REQ-018,Credit notes reference the original invoice,2026-R4,Billing,Ines Duarte,Verified,https://qa.example.com/runs/0451
+REQ-019,Mobile push notifications can be muted per project,2026-R4,Notifications,Diego Alvarez,Implemented,
+REQ-020,Inactive accounts are flagged after 90 days,2027-R1,Accounts,Chen Wei,Draft,
+REQ-021,Admins can schedule maintenance banners,2026-R3,Admin,Maya Patel,Verified,https://qa.example.com/runs/0460
+REQ-022,Search supports quoted phrases,2026-R4,Search,Ines Duarte,Implemented,
+REQ-023,Error messages explain the next step,2026-R4,Interface,Diego Alvarez,Verified,https://qa.example.com/runs/0466
+REQ-024,Billing contacts can be different from account owners,2027-R1,Billing,Chen Wei,Draft,
+REQ-025,Users can pause email digests,2026-R3,Notifications,Maya Patel,Verified,https://qa.example.com/runs/0472
+REQ-026,Admins can bulk deactivate users,2026-R4,Admin,Ines Duarte,Verified,https://qa.example.com/runs/0475
+REQ-027,Search results can be filtered by date,2026-R4,Search,Diego Alvarez,Implemented,
+REQ-028,Session timeout warns before sign-out,2027-R1,Accounts,Chen Wei,Draft,

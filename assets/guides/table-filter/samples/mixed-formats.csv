@@ -1,0 +1,11 @@
+﻿Sample,Received,Weight (g),Cost,Notes
+S-01,2026-11-03,"1,5","$1,234.50",ISO date
+S-02,09/11/2026,"12,75",$89.00,Day first: 9 November
+S-03,28/10/2026,"0,8",$310.25,Day first: 28 October
+S-04,11/12/2026,1.250,$45.10,Day first: 11 December
+S-05,2026-11-14,2,"$1,005.00",ISO date
+S-06,,,,Not received
+S-07,TBC,n/a,$62.40,Placeholder text
+S-08,31/11/2026,"3,25",$18.00,Impossible date
+S-09,05/11/2026,"1.000,5",$740.00,Day first: 5 November
+S-10,2026-10-30,"0,45",$9.99,ISO date

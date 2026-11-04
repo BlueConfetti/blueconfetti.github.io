@@ -1,0 +1,49 @@
+﻿Asset ID,Device,Location,Assigned to,Status,Warranty end
+004100,Laptop 14-inch,Austin office,Avery Brooks,In use,2026-09-15
+004107,Monitor 27-inch,Berlin office,Elif Demir,In use,2026-09-24
+004114,USB-C dock,Storage room B,,In stock,2026-10-03
+004121,Desk phone,Remote,Oskar Lind,In use,2026-10-12
+004128,Tablet 11-inch,Austin office,Diego Alvarez,In use,2026-10-21
+004135,Headset,Berlin office,Gabriel Moreau,Repair,2026-10-30
+004142,Laptop 14-inch,Remote,Maya Patel,In use,2026-11-08
+004149,Monitor 27-inch,Remote,Chen Wei,In use,2026-11-17
+004156,USB-C dock,Storage room B,,In stock,2026-11-26
+004163,Desk phone,Storage room B,,Retired,2026-12-05
+004170,Tablet 11-inch,Remote,Avery Brooks,In use,2026-12-14
+004177,Headset,Remote,Elif Demir,In use,2026-12-23
+004184,Laptop 14-inch,Austin office,Ines Duarte,In use,2027-01-01
+004191,Monitor 27-inch,Berlin office,Oskar Lind,In use,2027-01-10
+004198,USB-C dock,Storage room B,,In stock,2027-01-19
+004205,Desk phone,Remote,Gabriel Moreau,In use,2027-01-28
+004212,Tablet 11-inch,Austin office,Maya Patel,Repair,2027-02-06
+004219,Headset,Berlin office,Chen Wei,In use,2027-02-15
+004226,Laptop 14-inch,Remote,Fatima Noor,In use,2027-02-24
+004233,Monitor 27-inch,Remote,Kofi Asante,In use,2027-03-05
+004240,USB-C dock,Storage room B,,In stock,2027-03-14
+004247,Desk phone,Berlin office,Elif Demir,In use,2027-03-23
+004254,Tablet 11-inch,Storage room B,,Retired,2027-04-01
+004261,Headset,Remote,Oskar Lind,In use,2027-04-10
+004268,Laptop 14-inch,Austin office,Diego Alvarez,In use,2027-04-19
+004275,Monitor 27-inch,Berlin office,Gabriel Moreau,In use,2027-04-28
+004282,USB-C dock,Storage room B,,In stock,2027-05-07
+004289,Desk phone,Storage room B,Chen Wei,Repair,2027-05-16
+004296,Tablet 11-inch,Austin office,Fatima Noor,In use,2027-05-25
+004303,Headset,Berlin office,Kofi Asante,In use,2027-06-03
+004310,Laptop 14-inch,Remote,Avery Brooks,In use,2027-06-12
+004317,Monitor 27-inch,Remote,Elif Demir,In use,2027-06-21
+004324,USB-C dock,Storage room B,,In stock,2027-06-30
+004331,Desk phone,Berlin office,Oskar Lind,In use,2027-07-09
+004338,Tablet 11-inch,Remote,Diego Alvarez,In use,2027-07-18
+004345,Headset,Storage room B,,Retired,2027-07-27
+004352,Laptop 14-inch,Austin office,Maya Patel,In use,2027-08-05
+004359,Monitor 27-inch,Berlin office,Chen Wei,In use,2027-08-14
+004366,USB-C dock,Storage room B,,In stock,2027-08-23
+004373,Desk phone,Remote,Kofi Asante,In use,2027-09-01
+004380,Tablet 11-inch,Austin office,Avery Brooks,In use,2027-09-10
+004387,Headset,Berlin office,,In use,2027-09-19
+004394,Laptop 14-inch,Remote,Ines Duarte,In use,2027-09-28
+004401,Monitor 27-inch,Remote,Oskar Lind,In use,2027-10-07
+004408,USB-C dock,Storage room B,,In stock,2027-10-16
+004415,Desk phone,Berlin office,Gabriel Moreau,In use,2027-10-25
+004422,Tablet 11-inch,Remote,Maya Patel,In use,2027-11-03
+004429,Headset,Remote,Chen Wei,In use,2027-11-12

@@ -1,0 +1,241 @@
+﻿Case ID,Opened,Customer,Product,Region,Priority,Status,Assignee,Channel,Last update,SLA due,Summary
+CS-1001,2026-08-03,Acme Fabrication,Billing,North America,P3,New,Ama Mensah,Email,2026-08-04,2026-08-10,Invoice total does not match the order summary after a plan change
+CS-1002,2026-08-03,Kiwi Outdoor,Mobile app,Latin America,P2,Closed,Tomás Silva,Phone,2026-08-05,2026-08-06,App closes when attaching a photo from the gallery on older devices
+CS-1003,2026-08-03,Peña Logistics,Reporting,Asia Pacific,P4,Resolved,Kofi Asante,Chat,2026-08-06,2026-08-17,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1004,2026-08-04,São Paulo Print,Integrations,Europe,P3,Open,Ines Duarte,Portal,2026-08-08,2026-08-11,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1005,2026-08-04,Harbor Books,Sign-in,North America,P1,Waiting on customer,Oskar Lind,Email,2026-08-09,2026-08-05,Users are signed out after switching between two browser tabs
+CS-1006,2026-08-05,Northwind Traders,Billing,Latin America,P2,Open,,Phone,2026-08-06,2026-08-08,Invoice total does not match the order summary after a plan change
+CS-1007,2026-08-05,Café Lumière,Mobile app,Asia Pacific,P3,New,Ama Mensah,Chat,2026-08-07,2026-08-12,App closes when attaching a photo from the gallery on older devices
+CS-1008,2026-08-05,Ōtsuka Design,Reporting,Europe,P4,Closed,Tomás Silva,Portal,2026-08-08,2026-08-19,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1009,2026-08-06,Riverbend Clinic,Integrations,North America,P3,Resolved,Kofi Asante,Email,2026-08-10,2026-08-13,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1010,2026-08-06,Green Valley School,Sign-in,Latin America,P2,Open,Ines Duarte,Phone,2026-08-11,2026-08-09,Users are signed out after switching between two browser tabs
+CS-1011,2026-08-07,Müller & Söhne,Billing,Asia Pacific,P4,Waiting on customer,Oskar Lind,Chat,2026-08-08,2026-08-21,Invoice total does not match the order summary after a plan change
+CS-1012,2026-08-07,Acme Fabrication,Mobile app,Europe,P3,Open,,Portal,2026-08-09,2026-08-14,App closes when attaching a photo from the gallery on older devices
+CS-1013,2026-08-07,Kiwi Outdoor,Reporting,North America,P1,New,Ama Mensah,Email,2026-08-10,2026-08-08,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1014,2026-08-08,Peña Logistics,Integrations,Latin America,P2,Closed,Tomás Silva,Phone,2026-08-12,2026-08-11,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1015,2026-08-08,São Paulo Print,Sign-in,Asia Pacific,P3,Resolved,Kofi Asante,Chat,2026-08-13,2026-08-15,Users are signed out after switching between two browser tabs
+CS-1016,2026-08-09,Harbor Books,Billing,Europe,P4,Open,Ines Duarte,Portal,2026-08-10,2026-08-23,Invoice total does not match the order summary after a plan change
+CS-1017,2026-08-09,Northwind Traders,Mobile app,North America,P3,Waiting on customer,Oskar Lind,Email,2026-08-11,2026-08-16,App closes when attaching a photo from the gallery on older devices
+CS-1018,2026-08-09,Café Lumière,Reporting,Latin America,P2,Open,,Phone,2026-08-12,2026-08-12,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1019,2026-08-10,Ōtsuka Design,Integrations,Asia Pacific,P4,New,Ama Mensah,Chat,2026-08-14,2026-08-24,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1020,2026-08-10,Riverbend Clinic,Sign-in,Europe,P3,Closed,Tomás Silva,Portal,2026-08-15,2026-08-17,Users are signed out after switching between two browser tabs
+CS-1021,2026-08-11,Green Valley School,Billing,North America,P1,Resolved,Kofi Asante,Email,2026-08-12,2026-08-12,Invoice total does not match the order summary after a plan change
+CS-1022,2026-08-11,Müller & Söhne,Mobile app,Latin America,P2,Open,Ines Duarte,Phone,2026-08-13,2026-08-14,App closes when attaching a photo from the gallery on older devices
+CS-1023,2026-08-11,Acme Fabrication,Reporting,Asia Pacific,P3,Waiting on customer,Oskar Lind,Chat,2026-08-14,2026-08-18,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1024,2026-08-12,Kiwi Outdoor,Integrations,Europe,P4,Open,,Portal,2026-08-16,2026-08-26,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1025,2026-08-12,Peña Logistics,Sign-in,North America,P3,New,Ama Mensah,Email,2026-08-17,2026-08-19,Users are signed out after switching between two browser tabs
+CS-1026,2026-08-13,São Paulo Print,Billing,Latin America,P2,Closed,Tomás Silva,Phone,2026-08-14,2026-08-16,Invoice total does not match the order summary after a plan change
+CS-1027,2026-08-13,Harbor Books,Mobile app,Asia Pacific,P4,Resolved,Kofi Asante,Chat,2026-08-15,2026-08-27,App closes when attaching a photo from the gallery on older devices
+CS-1028,2026-08-13,Northwind Traders,Reporting,Europe,P3,Open,Ines Duarte,Portal,2026-08-16,2026-08-20,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1029,2026-08-14,Café Lumière,Integrations,North America,P1,Waiting on customer,Oskar Lind,Email,2026-08-18,2026-08-15,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1030,2026-08-14,Ōtsuka Design,Sign-in,Latin America,P2,Open,,Phone,2026-08-19,2026-08-17,Users are signed out after switching between two browser tabs
+CS-1031,2026-08-15,Riverbend Clinic,Billing,Asia Pacific,P3,New,Ama Mensah,Chat,2026-08-16,2026-08-22,Invoice total does not match the order summary after a plan change
+CS-1032,2026-08-15,Green Valley School,Mobile app,Europe,P4,Closed,Tomás Silva,Portal,2026-08-17,2026-08-29,App closes when attaching a photo from the gallery on older devices
+CS-1033,2026-08-15,Müller & Söhne,Reporting,North America,P3,Resolved,Kofi Asante,Email,2026-08-18,2026-08-22,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1034,2026-08-16,Acme Fabrication,Integrations,Latin America,P2,Open,Ines Duarte,Phone,2026-08-20,2026-08-19,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1035,2026-08-16,Kiwi Outdoor,Sign-in,Asia Pacific,P4,Waiting on customer,Oskar Lind,Chat,2026-08-21,2026-08-30,Users are signed out after switching between two browser tabs
+CS-1036,2026-08-17,Peña Logistics,Billing,Europe,P3,Open,,Portal,2026-08-18,2026-08-24,Invoice total does not match the order summary after a plan change
+CS-1037,2026-08-17,São Paulo Print,Mobile app,North America,P1,New,Ama Mensah,Email,2026-08-19,2026-08-18,App closes when attaching a photo from the gallery on older devices
+CS-1038,2026-08-17,Harbor Books,Reporting,Latin America,P2,Closed,Tomás Silva,Phone,2026-08-20,2026-08-20,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1039,2026-08-18,Northwind Traders,Integrations,Asia Pacific,P3,Resolved,Kofi Asante,Chat,2026-08-22,2026-08-25,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1040,2026-08-18,Café Lumière,Sign-in,Europe,P4,Open,Ines Duarte,Portal,2026-08-23,2026-09-01,Users are signed out after switching between two browser tabs
+CS-1041,2026-08-19,Ōtsuka Design,Billing,North America,P3,Waiting on customer,Oskar Lind,Email,2026-08-20,2026-08-26,Invoice total does not match the order summary after a plan change
+CS-1042,2026-08-19,Riverbend Clinic,Mobile app,Latin America,P2,Open,,Phone,2026-08-21,2026-08-22,App closes when attaching a photo from the gallery on older devices
+CS-1043,2026-08-19,Green Valley School,Reporting,Asia Pacific,P4,New,Ama Mensah,Chat,2026-08-22,2026-09-02,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1044,2026-08-20,Müller & Söhne,Integrations,Europe,P3,Closed,Tomás Silva,Portal,2026-08-24,2026-08-27,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1045,2026-08-20,Acme Fabrication,Sign-in,North America,P1,Resolved,Kofi Asante,Email,2026-08-25,2026-08-21,Users are signed out after switching between two browser tabs
+CS-1046,2026-08-21,Kiwi Outdoor,Billing,Latin America,P2,Open,Ines Duarte,Phone,2026-08-22,2026-08-24,Invoice total does not match the order summary after a plan change
+CS-1047,2026-08-21,Peña Logistics,Mobile app,Asia Pacific,P3,Waiting on customer,Oskar Lind,Chat,2026-08-23,2026-08-28,App closes when attaching a photo from the gallery on older devices
+CS-1048,2026-08-21,São Paulo Print,Reporting,Europe,P4,Open,,Portal,2026-08-24,2026-09-04,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1049,2026-08-22,Harbor Books,Integrations,North America,P3,New,Ama Mensah,Email,2026-08-26,2026-08-29,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1050,2026-08-22,Northwind Traders,Sign-in,Latin America,P2,Closed,Tomás Silva,Phone,2026-08-27,2026-08-25,Users are signed out after switching between two browser tabs
+CS-1051,2026-08-23,Café Lumière,Billing,Asia Pacific,P4,Resolved,Kofi Asante,Chat,2026-08-24,2026-09-06,Invoice total does not match the order summary after a plan change
+CS-1052,2026-08-23,Ōtsuka Design,Mobile app,Europe,P3,Open,Ines Duarte,Portal,2026-08-25,2026-08-30,App closes when attaching a photo from the gallery on older devices
+CS-1053,2026-08-23,Riverbend Clinic,Reporting,North America,P1,Waiting on customer,Oskar Lind,Email,2026-08-26,2026-08-24,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1054,2026-08-24,Green Valley School,Integrations,Latin America,P2,Open,,Phone,2026-08-28,2026-08-27,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1055,2026-08-24,Müller & Söhne,Sign-in,Asia Pacific,P3,New,Ama Mensah,Chat,2026-08-29,2026-08-31,Users are signed out after switching between two browser tabs
+CS-1056,2026-08-25,Acme Fabrication,Billing,Europe,P4,Closed,Tomás Silva,Portal,2026-08-26,2026-09-08,Invoice total does not match the order summary after a plan change
+CS-1057,2026-08-25,Kiwi Outdoor,Mobile app,North America,P3,Resolved,Kofi Asante,Email,2026-08-27,2026-09-01,App closes when attaching a photo from the gallery on older devices
+CS-1058,2026-08-25,Peña Logistics,Reporting,Latin America,P2,Open,Ines Duarte,Phone,2026-08-28,2026-08-28,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1059,2026-08-26,São Paulo Print,Integrations,Asia Pacific,P4,Waiting on customer,Oskar Lind,Chat,2026-08-30,2026-09-09,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1060,2026-08-26,Harbor Books,Sign-in,Europe,P3,Open,,Portal,2026-08-31,2026-09-02,Users are signed out after switching between two browser tabs
+CS-1061,2026-08-27,Northwind Traders,Billing,North America,P1,New,Ama Mensah,Email,2026-08-28,2026-08-28,Invoice total does not match the order summary after a plan change
+CS-1062,2026-08-27,Café Lumière,Mobile app,Latin America,P2,Closed,Tomás Silva,Phone,2026-08-29,2026-08-30,App closes when attaching a photo from the gallery on older devices
+CS-1063,2026-08-27,Ōtsuka Design,Reporting,Asia Pacific,P3,Resolved,Kofi Asante,Chat,2026-08-30,2026-09-03,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1064,2026-08-28,Riverbend Clinic,Integrations,Europe,P4,Open,Ines Duarte,Portal,2026-09-01,2026-09-11,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1065,2026-08-28,Green Valley School,Sign-in,North America,P3,Waiting on customer,Oskar Lind,Email,2026-09-02,2026-09-04,Users are signed out after switching between two browser tabs
+CS-1066,2026-08-29,Müller & Söhne,Billing,Latin America,P2,Open,,Phone,2026-08-30,2026-09-01,Invoice total does not match the order summary after a plan change
+CS-1067,2026-08-29,Acme Fabrication,Mobile app,Asia Pacific,P4,New,Ama Mensah,Chat,2026-08-31,2026-09-12,App closes when attaching a photo from the gallery on older devices
+CS-1068,2026-08-29,Kiwi Outdoor,Reporting,Europe,P3,Closed,Tomás Silva,Portal,2026-09-01,2026-09-05,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1069,2026-08-30,Peña Logistics,Integrations,North America,P1,Resolved,Kofi Asante,Email,2026-09-03,2026-08-31,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1070,2026-08-30,São Paulo Print,Sign-in,Latin America,P2,Open,Ines Duarte,Phone,2026-09-04,2026-09-02,Users are signed out after switching between two browser tabs
+CS-1071,2026-08-31,Harbor Books,Billing,Asia Pacific,P3,Waiting on customer,Oskar Lind,Chat,2026-09-01,2026-09-07,Invoice total does not match the order summary after a plan change
+CS-1072,2026-08-31,Northwind Traders,Mobile app,Europe,P4,Open,,Portal,2026-09-02,2026-09-14,App closes when attaching a photo from the gallery on older devices
+CS-1073,2026-08-31,Café Lumière,Reporting,North America,P3,New,Ama Mensah,Email,2026-09-03,2026-09-07,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1074,2026-09-01,Ōtsuka Design,Integrations,Latin America,P2,Closed,Tomás Silva,Phone,2026-09-05,2026-09-04,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1075,2026-09-01,Riverbend Clinic,Sign-in,Asia Pacific,P4,Resolved,Kofi Asante,Chat,2026-09-06,2026-09-15,Users are signed out after switching between two browser tabs
+CS-1076,2026-09-02,Green Valley School,Billing,Europe,P3,Open,Ines Duarte,Portal,2026-09-03,2026-09-09,Invoice total does not match the order summary after a plan change
+CS-1077,2026-09-02,Müller & Söhne,Mobile app,North America,P1,Waiting on customer,Oskar Lind,Email,2026-09-04,2026-09-03,App closes when attaching a photo from the gallery on older devices
+CS-1078,2026-09-02,Acme Fabrication,Reporting,Latin America,P2,Open,,Phone,2026-09-05,2026-09-05,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1079,2026-09-03,Kiwi Outdoor,Integrations,Asia Pacific,P3,New,Ama Mensah,Chat,2026-09-07,2026-09-10,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1080,2026-09-03,Peña Logistics,Sign-in,Europe,P4,Closed,Tomás Silva,Portal,2026-09-08,2026-09-17,Users are signed out after switching between two browser tabs
+CS-1081,2026-09-04,São Paulo Print,Billing,North America,P3,Resolved,Kofi Asante,Email,2026-09-05,2026-09-11,Invoice total does not match the order summary after a plan change
+CS-1082,2026-09-04,Harbor Books,Mobile app,Latin America,P2,Open,Ines Duarte,Phone,2026-09-06,2026-09-07,App closes when attaching a photo from the gallery on older devices
+CS-1083,2026-09-04,Northwind Traders,Reporting,Asia Pacific,P4,Waiting on customer,Oskar Lind,Chat,2026-09-07,2026-09-18,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1084,2026-09-05,Café Lumière,Integrations,Europe,P3,Open,,Portal,2026-09-09,2026-09-12,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1085,2026-09-05,Ōtsuka Design,Sign-in,North America,P1,New,Ama Mensah,Email,2026-09-10,2026-09-06,Users are signed out after switching between two browser tabs
+CS-1086,2026-09-06,Riverbend Clinic,Billing,Latin America,P2,Closed,Tomás Silva,Phone,2026-09-07,2026-09-09,Invoice total does not match the order summary after a plan change
+CS-1087,2026-09-06,Green Valley School,Mobile app,Asia Pacific,P3,Resolved,Kofi Asante,Chat,2026-09-08,2026-09-13,App closes when attaching a photo from the gallery on older devices
+CS-1088,2026-09-06,Müller & Söhne,Reporting,Europe,P4,Open,Ines Duarte,Portal,2026-09-09,2026-09-20,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1089,2026-09-07,Acme Fabrication,Integrations,North America,P3,Waiting on customer,Oskar Lind,Email,2026-09-11,2026-09-14,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1090,2026-09-07,Kiwi Outdoor,Sign-in,Latin America,P2,Open,,Phone,2026-09-12,2026-09-10,Users are signed out after switching between two browser tabs
+CS-1091,2026-09-08,Peña Logistics,Billing,Asia Pacific,P4,New,Ama Mensah,Chat,2026-09-09,2026-09-22,Invoice total does not match the order summary after a plan change
+CS-1092,2026-09-08,São Paulo Print,Mobile app,Europe,P3,Closed,Tomás Silva,Portal,2026-09-10,2026-09-15,App closes when attaching a photo from the gallery on older devices
+CS-1093,2026-09-08,Harbor Books,Reporting,North America,P1,Resolved,Kofi Asante,Email,2026-09-11,2026-09-09,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1094,2026-09-09,Northwind Traders,Integrations,Latin America,P2,Open,Ines Duarte,Phone,2026-09-13,2026-09-12,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1095,2026-09-09,Café Lumière,Sign-in,Asia Pacific,P3,Waiting on customer,Oskar Lind,Chat,2026-09-14,2026-09-16,Users are signed out after switching between two browser tabs
+CS-1096,2026-09-10,Ōtsuka Design,Billing,Europe,P4,Open,,Portal,2026-09-11,2026-09-24,Invoice total does not match the order summary after a plan change
+CS-1097,2026-09-10,Riverbend Clinic,Mobile app,North America,P3,New,Ama Mensah,Email,2026-09-12,2026-09-17,App closes when attaching a photo from the gallery on older devices
+CS-1098,2026-09-10,Green Valley School,Reporting,Latin America,P2,Closed,Tomás Silva,Phone,2026-09-13,2026-09-13,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1099,2026-09-11,Müller & Söhne,Integrations,Asia Pacific,P4,Resolved,Kofi Asante,Chat,2026-09-15,2026-09-25,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1100,2026-09-11,Acme Fabrication,Sign-in,Europe,P3,Open,Ines Duarte,Portal,2026-09-16,2026-09-18,Users are signed out after switching between two browser tabs
+CS-1101,2026-09-12,Kiwi Outdoor,Billing,North America,P1,Waiting on customer,Oskar Lind,Email,2026-09-13,2026-09-13,Invoice total does not match the order summary after a plan change
+CS-1102,2026-09-12,Peña Logistics,Mobile app,Latin America,P2,Open,,Phone,2026-09-14,2026-09-15,App closes when attaching a photo from the gallery on older devices
+CS-1103,2026-09-12,São Paulo Print,Reporting,Asia Pacific,P3,New,Ama Mensah,Chat,2026-09-15,2026-09-19,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1104,2026-09-13,Harbor Books,Integrations,Europe,P4,Closed,Tomás Silva,Portal,2026-09-17,2026-09-27,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1105,2026-09-13,Northwind Traders,Sign-in,North America,P3,Resolved,Kofi Asante,Email,2026-09-18,2026-09-20,Users are signed out after switching between two browser tabs
+CS-1106,2026-09-14,Café Lumière,Billing,Latin America,P2,Open,Ines Duarte,Phone,2026-09-15,2026-09-17,Invoice total does not match the order summary after a plan change
+CS-1107,2026-09-14,Ōtsuka Design,Mobile app,Asia Pacific,P4,Waiting on customer,Oskar Lind,Chat,2026-09-16,2026-09-28,App closes when attaching a photo from the gallery on older devices
+CS-1108,2026-09-14,Riverbend Clinic,Reporting,Europe,P3,Open,,Portal,2026-09-17,2026-09-21,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1109,2026-09-15,Green Valley School,Integrations,North America,P1,New,Ama Mensah,Email,2026-09-19,2026-09-16,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1110,2026-09-15,Müller & Söhne,Sign-in,Latin America,P2,Closed,Tomás Silva,Phone,2026-09-20,2026-09-18,Users are signed out after switching between two browser tabs
+CS-1111,2026-09-16,Acme Fabrication,Billing,Asia Pacific,P3,Resolved,Kofi Asante,Chat,2026-09-17,2026-09-23,Invoice total does not match the order summary after a plan change
+CS-1112,2026-09-16,Kiwi Outdoor,Mobile app,Europe,P4,Open,Ines Duarte,Portal,2026-09-18,2026-09-30,App closes when attaching a photo from the gallery on older devices
+CS-1113,2026-09-16,Peña Logistics,Reporting,North America,P3,Waiting on customer,Oskar Lind,Email,2026-09-19,2026-09-23,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1114,2026-09-17,São Paulo Print,Integrations,Latin America,P2,Open,,Phone,2026-09-21,2026-09-20,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1115,2026-09-17,Harbor Books,Sign-in,Asia Pacific,P4,New,Ama Mensah,Chat,2026-09-22,2026-10-01,Users are signed out after switching between two browser tabs
+CS-1116,2026-09-18,Northwind Traders,Billing,Europe,P3,Closed,Tomás Silva,Portal,2026-09-19,2026-09-25,Invoice total does not match the order summary after a plan change
+CS-1117,2026-09-18,Café Lumière,Mobile app,North America,P1,Resolved,Kofi Asante,Email,2026-09-20,2026-09-19,App closes when attaching a photo from the gallery on older devices
+CS-1118,2026-09-18,Ōtsuka Design,Reporting,Latin America,P2,Open,Ines Duarte,Phone,2026-09-21,2026-09-21,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1119,2026-09-19,Riverbend Clinic,Integrations,Asia Pacific,P3,Waiting on customer,Oskar Lind,Chat,2026-09-23,2026-09-26,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1120,2026-09-19,Green Valley School,Sign-in,Europe,P4,Open,,Portal,2026-09-24,2026-10-03,Users are signed out after switching between two browser tabs
+CS-1121,2026-09-20,Müller & Söhne,Billing,North America,P3,New,Ama Mensah,Email,2026-09-21,2026-09-27,Invoice total does not match the order summary after a plan change
+CS-1122,2026-09-20,Acme Fabrication,Mobile app,Latin America,P2,Closed,Tomás Silva,Phone,2026-09-22,2026-09-23,App closes when attaching a photo from the gallery on older devices
+CS-1123,2026-09-20,Kiwi Outdoor,Reporting,Asia Pacific,P4,Resolved,Kofi Asante,Chat,2026-09-23,2026-10-04,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1124,2026-09-21,Peña Logistics,Integrations,Europe,P3,Open,Ines Duarte,Portal,2026-09-25,2026-09-28,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1125,2026-09-21,São Paulo Print,Sign-in,North America,P1,Waiting on customer,Oskar Lind,Email,2026-09-26,2026-09-22,Users are signed out after switching between two browser tabs
+CS-1126,2026-09-22,Harbor Books,Billing,Latin America,P2,Open,,Phone,2026-09-23,2026-09-25,Invoice total does not match the order summary after a plan change
+CS-1127,2026-09-22,Northwind Traders,Mobile app,Asia Pacific,P3,New,Ama Mensah,Chat,2026-09-24,2026-09-29,App closes when attaching a photo from the gallery on older devices
+CS-1128,2026-09-22,Café Lumière,Reporting,Europe,P4,Closed,Tomás Silva,Portal,2026-09-25,2026-10-06,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1129,2026-09-23,Ōtsuka Design,Integrations,North America,P3,Resolved,Kofi Asante,Email,2026-09-27,2026-09-30,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1130,2026-09-23,Riverbend Clinic,Sign-in,Latin America,P2,Open,Ines Duarte,Phone,2026-09-28,2026-09-26,Users are signed out after switching between two browser tabs
+CS-1131,2026-09-24,Green Valley School,Billing,Asia Pacific,P4,Waiting on customer,Oskar Lind,Chat,2026-09-25,2026-10-08,Invoice total does not match the order summary after a plan change
+CS-1132,2026-09-24,Müller & Söhne,Mobile app,Europe,P3,Open,,Portal,2026-09-26,2026-10-01,App closes when attaching a photo from the gallery on older devices
+CS-1133,2026-09-24,Acme Fabrication,Reporting,North America,P1,New,Ama Mensah,Email,2026-09-27,2026-09-25,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1134,2026-09-25,Kiwi Outdoor,Integrations,Latin America,P2,Closed,Tomás Silva,Phone,2026-09-29,2026-09-28,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1135,2026-09-25,Peña Logistics,Sign-in,Asia Pacific,P3,Resolved,Kofi Asante,Chat,2026-09-30,2026-10-02,Users are signed out after switching between two browser tabs
+CS-1136,2026-09-26,São Paulo Print,Billing,Europe,P4,Open,Ines Duarte,Portal,2026-09-27,2026-10-10,Invoice total does not match the order summary after a plan change
+CS-1137,2026-09-26,Harbor Books,Mobile app,North America,P3,Waiting on customer,Oskar Lind,Email,2026-09-28,2026-10-03,App closes when attaching a photo from the gallery on older devices
+CS-1138,2026-09-26,Northwind Traders,Reporting,Latin America,P2,Open,,Phone,2026-09-29,2026-09-29,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1139,2026-09-27,Café Lumière,Integrations,Asia Pacific,P4,New,Ama Mensah,Chat,2026-10-01,2026-10-11,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1140,2026-09-27,Ōtsuka Design,Sign-in,Europe,P3,Closed,Tomás Silva,Portal,2026-10-02,2026-10-04,Users are signed out after switching between two browser tabs
+CS-1141,2026-09-28,Riverbend Clinic,Billing,North America,P1,Resolved,Kofi Asante,Email,2026-09-29,2026-09-29,Invoice total does not match the order summary after a plan change
+CS-1142,2026-09-28,Green Valley School,Mobile app,Latin America,P2,Open,Ines Duarte,Phone,2026-09-30,2026-10-01,App closes when attaching a photo from the gallery on older devices
+CS-1143,2026-09-28,Müller & Söhne,Reporting,Asia Pacific,P3,Waiting on customer,Oskar Lind,Chat,2026-10-01,2026-10-05,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1144,2026-09-29,Acme Fabrication,Integrations,Europe,P4,Open,,Portal,2026-10-03,2026-10-13,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1145,2026-09-29,Kiwi Outdoor,Sign-in,North America,P3,New,Ama Mensah,Email,2026-10-04,2026-10-06,Users are signed out after switching between two browser tabs
+CS-1146,2026-09-30,Peña Logistics,Billing,Latin America,P2,Closed,Tomás Silva,Phone,2026-10-01,2026-10-03,Invoice total does not match the order summary after a plan change
+CS-1147,2026-09-30,São Paulo Print,Mobile app,Asia Pacific,P4,Resolved,Kofi Asante,Chat,2026-10-02,2026-10-14,App closes when attaching a photo from the gallery on older devices
+CS-1148,2026-09-30,Harbor Books,Reporting,Europe,P3,Open,Ines Duarte,Portal,2026-10-03,2026-10-07,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1149,2026-10-01,Northwind Traders,Integrations,North America,P1,Waiting on customer,Oskar Lind,Email,2026-10-05,2026-10-02,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1150,2026-10-01,Café Lumière,Sign-in,Latin America,P2,Open,,Phone,2026-10-06,2026-10-04,Users are signed out after switching between two browser tabs
+CS-1151,2026-10-02,Ōtsuka Design,Billing,Asia Pacific,P3,New,Ama Mensah,Chat,2026-10-03,2026-10-09,Invoice total does not match the order summary after a plan change
+CS-1152,2026-10-02,Riverbend Clinic,Mobile app,Europe,P4,Closed,Tomás Silva,Portal,2026-10-04,2026-10-16,App closes when attaching a photo from the gallery on older devices
+CS-1153,2026-10-02,Green Valley School,Reporting,North America,P3,Resolved,Kofi Asante,Email,2026-10-05,2026-10-09,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1154,2026-10-03,Müller & Söhne,Integrations,Latin America,P2,Open,Ines Duarte,Phone,2026-10-07,2026-10-06,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1155,2026-10-03,Acme Fabrication,Sign-in,Asia Pacific,P4,Waiting on customer,Oskar Lind,Chat,2026-10-08,2026-10-17,Users are signed out after switching between two browser tabs
+CS-1156,2026-10-04,Kiwi Outdoor,Billing,Europe,P3,Open,,Portal,2026-10-05,2026-10-11,Invoice total does not match the order summary after a plan change
+CS-1157,2026-10-04,Peña Logistics,Mobile app,North America,P1,New,Ama Mensah,Email,2026-10-06,2026-10-05,App closes when attaching a photo from the gallery on older devices
+CS-1158,2026-10-04,São Paulo Print,Reporting,Latin America,P2,Closed,Tomás Silva,Phone,2026-10-07,2026-10-07,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1159,2026-10-05,Harbor Books,Integrations,Asia Pacific,P3,Resolved,Kofi Asante,Chat,2026-10-09,2026-10-12,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1160,2026-10-05,Northwind Traders,Sign-in,Europe,P4,Open,Ines Duarte,Portal,2026-10-10,2026-10-19,Users are signed out after switching between two browser tabs
+CS-1161,2026-10-06,Café Lumière,Billing,North America,P3,Waiting on customer,Oskar Lind,Email,2026-10-07,2026-10-13,Invoice total does not match the order summary after a plan change
+CS-1162,2026-10-06,Ōtsuka Design,Mobile app,Latin America,P2,Open,,Phone,2026-10-08,2026-10-09,App closes when attaching a photo from the gallery on older devices
+CS-1163,2026-10-06,Riverbend Clinic,Reporting,Asia Pacific,P4,New,Ama Mensah,Chat,2026-10-09,2026-10-20,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1164,2026-10-07,Green Valley School,Integrations,Europe,P3,Closed,Tomás Silva,Portal,2026-10-11,2026-10-14,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1165,2026-10-07,Müller & Söhne,Sign-in,North America,P1,Resolved,Kofi Asante,Email,2026-10-12,2026-10-08,Users are signed out after switching between two browser tabs
+CS-1166,2026-10-08,Acme Fabrication,Billing,Latin America,P2,Open,Ines Duarte,Phone,2026-10-09,2026-10-11,Invoice total does not match the order summary after a plan change
+CS-1167,2026-10-08,Kiwi Outdoor,Mobile app,Asia Pacific,P3,Waiting on customer,Oskar Lind,Chat,2026-10-10,2026-10-15,App closes when attaching a photo from the gallery on older devices
+CS-1168,2026-10-08,Peña Logistics,Reporting,Europe,P4,Open,,Portal,2026-10-11,2026-10-22,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1169,2026-10-09,São Paulo Print,Integrations,North America,P3,New,Ama Mensah,Email,2026-10-13,2026-10-16,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1170,2026-10-09,Harbor Books,Sign-in,Latin America,P2,Closed,Tomás Silva,Phone,2026-10-14,2026-10-12,Users are signed out after switching between two browser tabs
+CS-1171,2026-10-10,Northwind Traders,Billing,Asia Pacific,P4,Resolved,Kofi Asante,Chat,2026-10-11,2026-10-24,Invoice total does not match the order summary after a plan change
+CS-1172,2026-10-10,Café Lumière,Mobile app,Europe,P3,Open,Ines Duarte,Portal,2026-10-12,2026-10-17,App closes when attaching a photo from the gallery on older devices
+CS-1173,2026-10-10,Ōtsuka Design,Reporting,North America,P1,Waiting on customer,Oskar Lind,Email,2026-10-13,2026-10-11,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1174,2026-10-11,Riverbend Clinic,Integrations,Latin America,P2,Open,,Phone,2026-10-15,2026-10-14,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1175,2026-10-11,Green Valley School,Sign-in,Asia Pacific,P3,New,Ama Mensah,Chat,2026-10-16,2026-10-18,Users are signed out after switching between two browser tabs
+CS-1176,2026-10-12,Müller & Söhne,Billing,Europe,P4,Closed,Tomás Silva,Portal,2026-10-13,2026-10-26,Invoice total does not match the order summary after a plan change
+CS-1177,2026-10-12,Acme Fabrication,Mobile app,North America,P3,Resolved,Kofi Asante,Email,2026-10-14,2026-10-19,App closes when attaching a photo from the gallery on older devices
+CS-1178,2026-10-12,Kiwi Outdoor,Reporting,Latin America,P2,Open,Ines Duarte,Phone,2026-10-15,2026-10-15,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1179,2026-10-13,Peña Logistics,Integrations,Asia Pacific,P4,Waiting on customer,Oskar Lind,Chat,2026-10-17,2026-10-27,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1180,2026-10-13,São Paulo Print,Sign-in,Europe,P3,Open,,Portal,2026-10-18,2026-10-20,Users are signed out after switching between two browser tabs
+CS-1181,2026-10-14,Harbor Books,Billing,North America,P1,New,Ama Mensah,Email,2026-10-15,2026-10-15,Invoice total does not match the order summary after a plan change
+CS-1182,2026-10-14,Northwind Traders,Mobile app,Latin America,P2,Closed,Tomás Silva,Phone,2026-10-16,2026-10-17,App closes when attaching a photo from the gallery on older devices
+CS-1183,2026-10-14,Café Lumière,Reporting,Asia Pacific,P3,Resolved,Kofi Asante,Chat,2026-10-17,2026-10-21,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1184,2026-10-15,Ōtsuka Design,Integrations,Europe,P4,Open,Ines Duarte,Portal,2026-10-19,2026-10-29,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1185,2026-10-15,Riverbend Clinic,Sign-in,North America,P3,Waiting on customer,Oskar Lind,Email,2026-10-20,2026-10-22,Users are signed out after switching between two browser tabs
+CS-1186,2026-10-16,Green Valley School,Billing,Latin America,P2,Open,,Phone,2026-10-17,2026-10-19,Invoice total does not match the order summary after a plan change
+CS-1187,2026-10-16,Müller & Söhne,Mobile app,Asia Pacific,P4,New,Ama Mensah,Chat,2026-10-18,2026-10-30,App closes when attaching a photo from the gallery on older devices
+CS-1188,2026-10-16,Acme Fabrication,Reporting,Europe,P3,Closed,Tomás Silva,Portal,2026-10-19,2026-10-23,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1189,2026-10-17,Kiwi Outdoor,Integrations,North America,P1,Resolved,Kofi Asante,Email,2026-10-21,2026-10-18,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1190,2026-10-17,Peña Logistics,Sign-in,Latin America,P2,Open,Ines Duarte,Phone,2026-10-22,2026-10-20,Users are signed out after switching between two browser tabs
+CS-1191,2026-10-18,São Paulo Print,Billing,Asia Pacific,P3,Waiting on customer,Oskar Lind,Chat,2026-10-19,2026-10-25,Invoice total does not match the order summary after a plan change
+CS-1192,2026-10-18,Harbor Books,Mobile app,Europe,P4,Open,,Portal,2026-10-20,2026-11-01,App closes when attaching a photo from the gallery on older devices
+CS-1193,2026-10-18,Northwind Traders,Reporting,North America,P3,New,Ama Mensah,Email,2026-10-21,2026-10-25,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1194,2026-10-19,Café Lumière,Integrations,Latin America,P2,Closed,Tomás Silva,Phone,2026-10-23,2026-10-22,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1195,2026-10-19,Ōtsuka Design,Sign-in,Asia Pacific,P4,Resolved,Kofi Asante,Chat,2026-10-24,2026-11-02,Users are signed out after switching between two browser tabs
+CS-1196,2026-10-20,Riverbend Clinic,Billing,Europe,P3,Open,Ines Duarte,Portal,2026-10-21,2026-10-27,Invoice total does not match the order summary after a plan change
+CS-1197,2026-10-20,Green Valley School,Mobile app,North America,P1,Waiting on customer,Oskar Lind,Email,2026-10-22,2026-10-21,App closes when attaching a photo from the gallery on older devices
+CS-1198,2026-10-20,Müller & Söhne,Reporting,Latin America,P2,Open,,Phone,2026-10-23,2026-10-23,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1199,2026-10-21,Acme Fabrication,Integrations,Asia Pacific,P3,New,Ama Mensah,Chat,2026-10-25,2026-10-28,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1200,2026-10-21,Kiwi Outdoor,Sign-in,Europe,P4,Closed,Tomás Silva,Portal,2026-10-26,2026-11-04,Users are signed out after switching between two browser tabs
+CS-1201,2026-10-22,Peña Logistics,Billing,North America,P3,Resolved,Kofi Asante,Email,2026-10-23,2026-10-29,Invoice total does not match the order summary after a plan change
+CS-1202,2026-10-22,São Paulo Print,Mobile app,Latin America,P2,Open,Ines Duarte,Phone,2026-10-24,2026-10-25,App closes when attaching a photo from the gallery on older devices
+CS-1203,2026-10-22,Harbor Books,Reporting,Asia Pacific,P4,Waiting on customer,Oskar Lind,Chat,2026-10-25,2026-11-05,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1204,2026-10-23,Northwind Traders,Integrations,Europe,P3,Open,,Portal,2026-10-27,2026-10-30,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1205,2026-10-23,Café Lumière,Sign-in,North America,P1,New,Ama Mensah,Email,2026-10-28,2026-10-24,Users are signed out after switching between two browser tabs
+CS-1206,2026-10-24,Ōtsuka Design,Billing,Latin America,P2,Closed,Tomás Silva,Phone,2026-10-25,2026-10-27,Invoice total does not match the order summary after a plan change
+CS-1207,2026-10-24,Riverbend Clinic,Mobile app,Asia Pacific,P3,Resolved,Kofi Asante,Chat,2026-10-26,2026-10-31,App closes when attaching a photo from the gallery on older devices
+CS-1208,2026-10-24,Green Valley School,Reporting,Europe,P4,Open,Ines Duarte,Portal,2026-10-27,2026-11-07,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1209,2026-10-25,Müller & Söhne,Integrations,North America,P3,Waiting on customer,Oskar Lind,Email,2026-10-29,2026-11-01,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1210,2026-10-25,Acme Fabrication,Sign-in,Latin America,P2,Open,,Phone,2026-10-30,2026-10-28,Users are signed out after switching between two browser tabs
+CS-1211,2026-10-26,Kiwi Outdoor,Billing,Asia Pacific,P4,New,Ama Mensah,Chat,2026-10-27,2026-11-09,Invoice total does not match the order summary after a plan change
+CS-1212,2026-10-26,Peña Logistics,Mobile app,Europe,P3,Closed,Tomás Silva,Portal,2026-10-28,2026-11-02,App closes when attaching a photo from the gallery on older devices
+CS-1213,2026-10-26,São Paulo Print,Reporting,North America,P1,Resolved,Kofi Asante,Email,2026-10-29,2026-10-27,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1214,2026-10-27,Harbor Books,Integrations,Latin America,P2,Open,Ines Duarte,Phone,2026-10-31,2026-10-30,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1215,2026-10-27,Northwind Traders,Sign-in,Asia Pacific,P3,Waiting on customer,Oskar Lind,Chat,2026-11-01,2026-11-03,Users are signed out after switching between two browser tabs
+CS-1216,2026-10-28,Café Lumière,Billing,Europe,P4,Open,,Portal,2026-10-29,2026-11-11,Invoice total does not match the order summary after a plan change
+CS-1217,2026-10-28,Ōtsuka Design,Mobile app,North America,P3,New,Ama Mensah,Email,2026-10-30,2026-11-04,App closes when attaching a photo from the gallery on older devices
+CS-1218,2026-10-28,Riverbend Clinic,Reporting,Latin America,P2,Closed,Tomás Silva,Phone,2026-10-31,2026-10-31,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1219,2026-10-29,Green Valley School,Integrations,Asia Pacific,P4,Resolved,Kofi Asante,Chat,2026-11-02,2026-11-12,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1220,2026-10-29,Müller & Söhne,Sign-in,Europe,P3,Open,Ines Duarte,Portal,2026-11-03,2026-11-05,Users are signed out after switching between two browser tabs
+CS-1221,2026-10-30,Acme Fabrication,Billing,North America,P1,Waiting on customer,Oskar Lind,Email,2026-10-31,2026-10-31,Invoice total does not match the order summary after a plan change
+CS-1222,2026-10-30,Kiwi Outdoor,Mobile app,Latin America,P2,Open,,Phone,2026-11-01,2026-11-02,App closes when attaching a photo from the gallery on older devices
+CS-1223,2026-10-30,Peña Logistics,Reporting,Asia Pacific,P3,New,Ama Mensah,Chat,2026-11-02,2026-11-06,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1224,2026-10-31,São Paulo Print,Integrations,Europe,P4,Closed,Tomás Silva,Portal,2026-11-04,2026-11-14,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1225,2026-10-31,Harbor Books,Sign-in,North America,P3,Resolved,Kofi Asante,Email,2026-11-05,2026-11-07,Users are signed out after switching between two browser tabs
+CS-1226,2026-11-01,Northwind Traders,Billing,Latin America,P2,Open,Ines Duarte,Phone,2026-11-02,2026-11-04,Invoice total does not match the order summary after a plan change
+CS-1227,2026-11-01,Café Lumière,Mobile app,Asia Pacific,P4,Waiting on customer,Oskar Lind,Chat,2026-11-03,2026-11-15,App closes when attaching a photo from the gallery on older devices
+CS-1228,2026-11-01,Ōtsuka Design,Reporting,Europe,P3,Open,,Portal,2026-11-04,2026-11-08,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1229,2026-11-02,Riverbend Clinic,Integrations,North America,P1,New,Ama Mensah,Email,2026-11-06,2026-11-03,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1230,2026-11-02,Green Valley School,Sign-in,Latin America,P2,Closed,Tomás Silva,Phone,2026-11-07,2026-11-05,Users are signed out after switching between two browser tabs
+CS-1231,2026-11-03,Müller & Söhne,Billing,Asia Pacific,P3,Resolved,Kofi Asante,Chat,2026-11-04,2026-11-10,Invoice total does not match the order summary after a plan change
+CS-1232,2026-11-03,Acme Fabrication,Mobile app,Europe,P4,Open,Ines Duarte,Portal,2026-11-05,2026-11-17,App closes when attaching a photo from the gallery on older devices
+CS-1233,2026-11-03,Kiwi Outdoor,Reporting,North America,P3,Waiting on customer,Oskar Lind,Email,2026-11-06,2026-11-10,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1234,2026-11-04,Peña Logistics,Integrations,Latin America,P2,Open,,Phone,2026-11-08,2026-11-07,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1235,2026-11-04,São Paulo Print,Sign-in,Asia Pacific,P4,New,Ama Mensah,Chat,2026-11-09,2026-11-18,Users are signed out after switching between two browser tabs
+CS-1236,2026-11-05,Harbor Books,Billing,Europe,P3,Closed,Tomás Silva,Portal,2026-11-06,2026-11-12,Invoice total does not match the order summary after a plan change
+CS-1237,2026-11-05,Northwind Traders,Mobile app,North America,P1,Resolved,Kofi Asante,Email,2026-11-07,2026-11-06,App closes when attaching a photo from the gallery on older devices
+CS-1238,2026-11-05,Café Lumière,Reporting,Latin America,P2,Open,Ines Duarte,Phone,2026-11-08,2026-11-08,"Monthly report export stops at the first 1,000 rows for some filters"
+CS-1239,2026-11-06,Ōtsuka Design,Integrations,Asia Pacific,P3,Waiting on customer,Oskar Lind,Chat,2026-11-10,2026-11-13,Webhook deliveries retry repeatedly after the endpoint returns 200
+CS-1240,2026-11-06,Riverbend Clinic,Sign-in,Europe,P4,Open,,Portal,2026-11-11,2026-11-20,Users are signed out after switching between two browser tabs

@@ -1,0 +1,25 @@
+﻿Task ID,Task,Team,Owner,Status,Due,Estimate
+PRJ-101,Checkout API timeout fix,Engineering,Priya Shah,Blocked,2026-11-06,3
+PRJ-102,Billing page redesign,Design,Mateo Ruiz,In progress,2026-11-12,5
+PRJ-103,Release notes draft,Docs,Hana Sato,To do,2026-11-13,2
+PRJ-104,Search index migration,Engineering,Liam O'Neill,In progress,2026-11-10,8
+PRJ-105,Help center screenshots,Docs,Hana Sato,Done,2026-11-04,1
+PRJ-106,Support macro update,Support,Ama Mensah,In review,2026-11-11,1
+PRJ-107,Launch email copy,Marketing,Jonas Berg,In progress,2026-11-20,2
+PRJ-108,Accessibility fixes,Design,Mateo Ruiz,Blocked,2026-11-18,4
+PRJ-109,Rate limit alerts,Engineering,Priya Shah,To do,2026-11-14,3
+PRJ-110,Escalation runbook,Support,Ama Mensah,In progress,2026-11-27,2
+PRJ-111,Pricing FAQ,Docs,Lena Fischer,In review,2026-11-09,1
+PRJ-112,Webhook retry policy,Engineering,Liam O'Neill,Blocked,2026-11-24,5
+PRJ-113,Customer webinar plan,Marketing,Jonas Berg,To do,2026-12-02,3
+PRJ-114,Status page wording,Support,Ama Mensah,Done,2026-11-05,1
+PRJ-115,Mobile layout review,Design,Noor Haddad,To do,2026-11-15,2
+PRJ-116,Data export test plan,Engineering,Priya Shah,In review,2026-11-12,2
+PRJ-117,Partner briefing deck,Marketing,Jonas Berg,Blocked,2026-11-13,2
+PRJ-118,API changelog,Docs,Lena Fischer,To do,2026-11-19,1
+PRJ-119,Trial onboarding emails,Marketing,Sofia Costa,In progress,2026-11-16,3
+PRJ-120,Dependency upgrades,Engineering,Liam O'Neill,To do,2026-11-23,5
+PRJ-121,Ticket tag cleanup,Support,Tomás Silva,To do,2026-11-17,1
+PRJ-122,Icon refresh,Design,Noor Haddad,Done,2026-11-02,2
+PRJ-123,Backup restore drill,Engineering,Priya Shah,To do,2026-11-30,3
+PRJ-124,Glossary update,Docs,Hana Sato,In progress,2026-11-26,1
