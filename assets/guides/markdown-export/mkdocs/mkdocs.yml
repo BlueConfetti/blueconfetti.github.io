@@ -1,0 +1,19 @@
+site_name: Team documentation
+nav:
+  - Home: index.md
+  - Engineering Handbook:
+      - Overview: handbook/1001.md
+      - Onboarding: handbook/1001/1002.md
+      - First week: handbook/1001/1002/1003.md
+      - Architecture overview: handbook/1001/1004.md
+      - Release checklist: handbook/1001/1005.md
+exclude_docs: |
+  /handbook/all-pages.md
+  /handbook/manifest.json
+markdown_extensions:
+  - pymdownx.tasklist
+validation:
+  links:
+    not_found: warn
+    anchors: warn
+    unrecognized_links: warn

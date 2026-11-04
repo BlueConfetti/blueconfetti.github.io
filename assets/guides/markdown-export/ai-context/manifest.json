@@ -1,0 +1,152 @@
+{
+  "generator": "Flint Markdown Export 0.2.0",
+  "format_version": 1,
+  "site": "https://example.atlassian.net",
+  "root_page_id": "2001",
+  "scope": "selected",
+  "exported": "2026-11-03T16:00:00Z",
+  "pages": [
+    {
+      "page_id": "2001",
+      "content_type": "page",
+      "title": "Harbor Lights project brief",
+      "path": "harbor-lights-project-brief-2001.md",
+      "parent_id": null,
+      "depth": 0,
+      "position": 0,
+      "source_url": "https://example.atlassian.net/wiki/spaces/PRJ/pages/2001/Harbor+Lights+project+brief",
+      "space_key": "PRJ",
+      "space_name": "PRJ",
+      "breadcrumb": [
+        "Harbor Lights project brief"
+      ],
+      "labels": [
+        "project-brief",
+        "harbor-lights"
+      ],
+      "author": "Priya Shah",
+      "last_updated_by": "Sam Lee",
+      "created": "2026-09-01T09:00:00.000Z",
+      "updated": "2026-10-08T15:30:00.000Z",
+      "version": 4,
+      "assets": [],
+      "includes": [],
+      "rendered_macros": [],
+      "warnings": []
+    },
+    {
+      "page_id": "2002",
+      "content_type": "page",
+      "title": "Scope and goals",
+      "path": "harbor-lights-project-brief-2001/scope-and-goals-2002.md",
+      "parent_id": "2001",
+      "depth": 1,
+      "position": 0,
+      "source_url": "https://example.atlassian.net/wiki/spaces/PRJ/pages/2002/Scope+and+goals",
+      "space_key": "PRJ",
+      "space_name": "PRJ",
+      "breadcrumb": [
+        "Harbor Lights project brief",
+        "Scope and goals"
+      ],
+      "labels": [
+        "harbor-lights"
+      ],
+      "author": "Priya Shah",
+      "last_updated_by": "Sam Lee",
+      "created": "2026-09-01T09:00:00.000Z",
+      "updated": "2026-10-08T15:30:00.000Z",
+      "version": 4,
+      "assets": [
+        "harbor-lights-project-brief-2001/scope-and-goals-2002.assets/check-in-flow.svg"
+      ],
+      "includes": [],
+      "rendered_macros": [],
+      "warnings": []
+    },
+    {
+      "page_id": "2003",
+      "content_type": "page",
+      "title": "Decision log",
+      "path": "harbor-lights-project-brief-2001/decision-log-2003.md",
+      "parent_id": "2001",
+      "depth": 1,
+      "position": 1,
+      "source_url": "https://example.atlassian.net/wiki/spaces/PRJ/pages/2003/Decision+log",
+      "space_key": "PRJ",
+      "space_name": "PRJ",
+      "breadcrumb": [
+        "Harbor Lights project brief",
+        "Decision log"
+      ],
+      "labels": [
+        "harbor-lights",
+        "decisions"
+      ],
+      "author": "Priya Shah",
+      "last_updated_by": "Sam Lee",
+      "created": "2026-09-01T09:00:00.000Z",
+      "updated": "2026-10-08T15:30:00.000Z",
+      "version": 4,
+      "assets": [],
+      "includes": [],
+      "rendered_macros": [],
+      "warnings": []
+    },
+    {
+      "page_id": "2004",
+      "content_type": "page",
+      "title": "Open questions",
+      "path": "harbor-lights-project-brief-2001/open-questions-2004.md",
+      "parent_id": "2001",
+      "depth": 1,
+      "position": 2,
+      "source_url": "https://example.atlassian.net/wiki/spaces/PRJ/pages/2004/Open+questions",
+      "space_key": "PRJ",
+      "space_name": "PRJ",
+      "breadcrumb": [
+        "Harbor Lights project brief",
+        "Open questions"
+      ],
+      "labels": [
+        "harbor-lights"
+      ],
+      "author": "Priya Shah",
+      "last_updated_by": "Sam Lee",
+      "created": "2026-09-01T09:00:00.000Z",
+      "updated": "2026-10-08T15:30:00.000Z",
+      "version": 4,
+      "assets": [],
+      "includes": [],
+      "rendered_macros": [],
+      "warnings": [
+        "Jira issue list not exported (JQL: project = HL AND statusCategory != Done)"
+      ]
+    }
+  ],
+  "skipped": [],
+  "limits": [],
+  "options": {
+    "linkStyle": "markdown",
+    "panelStyle": "plain",
+    "filenamePattern": "{title}-{id}",
+    "frontMatter": true,
+    "frontMatterFields": [
+      "title",
+      "page_id",
+      "source_url",
+      "space_key",
+      "parent_id",
+      "breadcrumb",
+      "labels",
+      "author",
+      "last_updated_by",
+      "created",
+      "updated",
+      "version",
+      "exported"
+    ],
+    "customFields": {},
+    "preset": "context"
+  }
+}
