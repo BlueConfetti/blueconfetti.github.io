@@ -1,0 +1,91 @@
+diff --git a/docs/handbook/1001/1002/1003.md b/docs/handbook/1001/1002/1003.md
+index 803a052..1456e59 100644
+--- a/docs/handbook/1001/1002/1003.md
++++ b/docs/handbook/1001/1002/1003.md
+@@ -7,17 +7,18 @@ parent_id: "1002"
+ breadcrumb: ["Engineering Handbook", "Onboarding", "First week"]
+ labels: ["onboarding"]
+ author: "Priya Shah"
+-last_updated_by: "Sam Lee"
++last_updated_by: "Mei Tanaka"
+ created: "2026-09-01T09:00:00.000Z"
+-updated: "2026-10-08T15:30:00.000Z"
+-version: 4
++updated: "2026-11-03T09:12:00.000Z"
++version: 5
+ ---
+ 
+ # First week
+ 
+ - Day 1: set up your machine
+ - Day 2: ship a small fix, tracked in [ENG-42](https://example.atlassian.net/browse/ENG-42)
+-- Day 3 to 5: pair on the current sprint
++- Day 3 to 4: pair on the current sprint
++- Day 5: demo your first change at the team review
+ 
+ ## Set up your machine
+ 
+@@ -25,7 +26,7 @@ version: 4
+ git clone git@example.com:acme/app.git
+ cd app
+ npm ci
+-npm test
++npm run check
+ ```
+ 
+ **Troubleshooting**
+diff --git a/docs/handbook/all-pages.md b/docs/handbook/all-pages.md
+index d080251..010adc8 100644
+--- a/docs/handbook/all-pages.md
++++ b/docs/handbook/all-pages.md
+@@ -38,11 +38,12 @@ Your first two weeks, step by step. Day-by-day details are in [First week](1001/
+ 
+ # First week
+ 
+-Source: https://example.atlassian.net/wiki/spaces/ENG/pages/1003/First+week · Updated: 2026-10-08
++Source: https://example.atlassian.net/wiki/spaces/ENG/pages/1003/First+week · Updated: 2026-11-03
+ 
+ - Day 1: set up your machine
+ - Day 2: ship a small fix, tracked in [ENG-42](https://example.atlassian.net/browse/ENG-42)
+-- Day 3 to 5: pair on the current sprint
++- Day 3 to 4: pair on the current sprint
++- Day 5: demo your first change at the team review
+ 
+ ## Set up your machine
+ 
+@@ -50,7 +51,7 @@ Source: https://example.atlassian.net/wiki/spaces/ENG/pages/1003/First+week · U
+ git clone git@example.com:acme/app.git
+ cd app
+ npm ci
+-npm test
++npm run check
+ ```
+ 
+ **Troubleshooting**
+diff --git a/docs/handbook/manifest.json b/docs/handbook/manifest.json
+index 55418d3..5fd376b 100644
+--- a/docs/handbook/manifest.json
++++ b/docs/handbook/manifest.json
+@@ -4,7 +4,7 @@
+   "site": "https://example.atlassian.net",
+   "root_page_id": "1001",
+   "scope": "selected",
+-  "exported": "2026-11-02T16:00:00Z",
++  "exported": "2026-11-03T16:00:00Z",
+   "pages": [
+     {
+       "page_id": "1001",
+@@ -81,10 +81,10 @@
+         "onboarding"
+       ],
+       "author": "Priya Shah",
+-      "last_updated_by": "Sam Lee",
++      "last_updated_by": "Mei Tanaka",
+       "created": "2026-09-01T09:00:00.000Z",
+-      "updated": "2026-10-08T15:30:00.000Z",
+-      "version": 4,
++      "updated": "2026-11-03T09:12:00.000Z",
++      "version": 5,
+       "assets": [],
+       "includes": [],
+       "rendered_macros": [],
